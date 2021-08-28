@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="DILCISVocabularies.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<Vocabularies xmlns="https://DILCIS.eu/XML/Vocabularies/IP">
+    <Vocabulary Name="VocabularyEHealth1">
+        <Information>
+            <p>Vocabulary derived from E-ARK</p>
+            <p>The terms are used for the CITS eHealth1</p>
+        </Information>
+        <Entry>
+            <Term lang="en">Patient Medical Records</Term>
+            <Definition>A collection or compilation of recorded information about a patient in connection with healthcare, ; the patient record is the principal repository for information concerning a patient’s health care.</Definition>
+        </Entry>
+        <Entry>
+            <Term lang="en">eHealth1</Term>
+            <Definition>The specification for eHealth1 is used.</Definition>
+        </Entry>
+        <Entry>
+            <Term lang="en">CASE</Term>
+            <Definition>A Case is a folder located in the ”Data” folder within the representation and may contain any number of Sub-cases and Documents.</Definition>
+        </Entry>
+        <Entry>
+            <Term lang="en">SUBCASE</Term>
+            <Definition>A Sub-case is a folder located in a Case folder within the representation and must contain at least one Document.</Definition>
+        </Entry>
+        <Entry>
+            <Term lang="en">DOCUMENT</Term>
+            <Definition>Each Case or Sub-case can contain individual Data Files that are related logically and together form  Documents (e.g. a book, video, image and annotation, document and audio notes).</Definition>
+        </Entry>
+        <Entry>
+            <Term lang="en">DATAFILE</Term>
+            <Definition>Data Files are components that contain data and have associated MIME file types.  A Data File can be a single bit stream or can encapsulate bit streams and attributes according to a standard such as a DICOM or MP4.</Definition>
+        </Entry>
+        <Entry>
+            <Term lang="en">DATA</Term>
+            <Definition>Data specifies that the section describes the data in the package/representation.</Definition>
+        </Entry>
+    </Vocabulary>
+</Vocabularies>
