@@ -168,6 +168,8 @@
             <dd>1..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP2</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -182,6 +184,8 @@
             <dd>1..1</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP2</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -196,13 +200,15 @@
             <dd>1..1</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP3</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
       <requirement ID="EHR4" REQLEVEL="MUST" RELATEDMAT="VocabularyContentInformationTypeSpecification" EXAMPLES="metsRootElementExample1">
         <description>
           <head>Content Information Type Specification</head>
-          <p xmlns="http://www.w3.org/1999/xhtml"></p>The `mets/@csip:CONTENTINFORMATIONTYPE` attribute is set to the value "citsehpj_v2_0".<dl xmlns="http://www.w3.org/1999/xhtml"><dt>METS XPath</dt><dd>mets/@csip:CONTENTINFORMATIONTYPE</dd><dt>Cardinality</dt><dd>1..1</dd><dt>REF:CSIPv2.0.4</dt><dd>https://earkcsip.dilcis.eu/#CSIP4</dd></dl></description>
+          <p xmlns="http://www.w3.org/1999/xhtml"></p>The `mets/@csip:CONTENTINFORMATIONTYPE` attribute is set to the value "citsehpj_v2_0".<dl xmlns="http://www.w3.org/1999/xhtml"><dt>METS XPath</dt><dd>mets/@csip:CONTENTINFORMATIONTYPE</dd><dt>Cardinality</dt><dd>1..1</dd><dt>REF:CSIPv2.0.4</dt><dd>https://earkcsip.dilcis.eu/#CSIP4</dd><dt>since</dt><dd>v1.0.0</dd></dl></description>
       </requirement>
     </metsRootElement>
     <metsHdr ID="metsHeaderElement">
@@ -221,6 +227,8 @@
             <dd>0..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP5</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -236,6 +244,8 @@
             <dd>1..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP9</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -250,6 +260,8 @@
             <dd>1..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP10</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -264,6 +276,8 @@
             <dd>1..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP11</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -279,6 +293,8 @@
             <dd>1..n</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP12</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -294,6 +310,8 @@
             <dd>0..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP13</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -308,6 +326,8 @@
             <dd>1..1</dd>
             <dt>REF:SIPv2.0.4</dt>
             <dd>https://earksip.dilcis.eu/#SIP14</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -324,6 +344,8 @@
             <dd>1..n</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP17</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -338,6 +360,8 @@
             <dd>1..n</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP21</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -352,6 +376,8 @@
             <dd>1..1</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP25</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -365,6 +391,8 @@
             <dd>mets/dmdSec/mdRef[@MDTYPE='OTHER']/@OTHERMDTYPE</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -391,6 +419,8 @@
             <dd>1..1</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP58</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
@@ -405,6 +435,8 @@
             <dd>1..1</dd>
             <dt>REF:CSIPv2.0.4</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP62</dd>
+            <dt>since</dt>
+            <dd>v1.0.0</dd>
           </dl>
         </description>
       </requirement>
