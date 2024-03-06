@@ -347,6 +347,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH22</dd>
           </dl>
         </description>
       </requirement>
@@ -361,6 +363,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH22</dd>
           </dl>
         </description>
       </requirement>
@@ -375,6 +379,8 @@
             <dd>0..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH22</dd>
           </dl>
         </description>
       </requirement>
@@ -390,6 +396,8 @@
             <dd>0..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH22</dd>
           </dl>
         </description>
       </requirement>
@@ -589,6 +597,8 @@
             <dd>0..n</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH58</dd>
           </dl>
         </description>
       </requirement>
@@ -603,6 +613,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH50</dd>
           </dl>
         </description>
       </requirement>
@@ -617,6 +629,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH50</dd>
           </dl>
         </description>
       </requirement>
@@ -631,7 +645,9 @@
             <dt>Cardinality</dt>
             <dd>1..n</dd>
             <dt>since</dt>
-            <dd />
+            <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH50</dd>
           </dl>
         </description>
       </requirement>
@@ -646,6 +662,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH53</dd>
           </dl>
         </description>
       </requirement>
@@ -660,6 +678,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH53</dd>
           </dl>
         </description>
       </requirement>
@@ -674,10 +694,12 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH53</dd>
           </dl>
         </description>
       </requirement>
-      <requirement ID="EH57" REQLEVEL="MUST" RELATEDMAT="EH19" EXAMPLES="structMapExample2">
+      <requirement ID="EH57" REQLEVEL="MUST" EXAMPLES="structMapExample2">
         <description>
           <head>Data File division file group reference ID</head>
           <p xmlns="http://www.w3.org/1999/xhtml">The pointer to the identifier for the file group containing the data files.</p>
@@ -688,6 +710,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH53</dd>
           </dl>
         </description>
       </requirement>
@@ -717,6 +741,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH58</dd>
           </dl>
         </description>
       </requirement>
@@ -731,6 +757,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH58</dd>
           </dl>
         </description>
       </requirement>
@@ -745,6 +773,8 @@
             <dd>1..n</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH58</dd>
           </dl>
         </description>
       </requirement>
@@ -759,6 +789,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
@@ -773,6 +805,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
@@ -788,6 +822,8 @@
             <dd>1..n</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
@@ -802,6 +838,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
@@ -816,6 +854,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
@@ -830,6 +870,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
@@ -844,6 +886,8 @@
             <dd>1..1</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
+            <dt>dependsOn</dt>
+            <dd>EH61</dd>
           </dl>
         </description>
       </requirement>
