@@ -632,7 +632,7 @@
           <mets:FLocat xlink:href="schemas/METS.xsd" xlink:type="simple" LOCTYPE="URL" xmlns:xlink="http://www.w3.org/1999/xlink" />
         </mets:file>
       </mets:fileGrp>
-      <mets:fileGrp ID="filegrp-representation" USE="representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS">
+      <mets:fileGrp ID="filegrp-representation" USE="Representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS">
         <mets:file ID="file-ptr-repmets1" MIMETYPE="xml" SIZE="1338744" CREATED="2018-04-24T14:33:23.617+01:00" CHECKSUM="B1CF59678A21C2805370536AB1097735D7E9F3FDDDCAE3757426ED85F6350A48" CHECKSUMTYPE="SHA-256">
           <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="representations/rep1/mets.xml" xmlns:xlink="http://www.w3.org/1999/xlink" />
         </mets:file>
@@ -641,11 +641,11 @@
   </Example>
   <Example ID="structMapExample1" LABEL="METS example of root structMap for an IP following CITS eHealth1">
     <mets:div ID="struct-map-example-div" LABEL="struct-map-example">
-      <mets:div ID="struct-map-metadata-div" LABEL="metadata" DMDID="dmd-ehealth-file" ADMID="digiProv-eHealth-file rights-eHealth-file" />
-      <mets:div ID="struct-map-documentation-div" LABEL="documentation">
+      <mets:div ID="struct-map-metadata-div" LABEL="Metadata" DMDID="dmd-ehealth-file" ADMID="digiProv-eHealth-file rights-eHealth-file" />
+      <mets:div ID="struct-map-documentation-div" LABEL="Documentation">
         <mets:fptr FILEID="filegrp-documentation" />
       </mets:div>
-      <mets:div ID="struct-map-schema-div" LABEL="schemas">
+      <mets:div ID="struct-map-schema-div" LABEL="Schemas">
         <mets:fptr FILEID="filegrp-schemas" />
       </mets:div>
       <mets:div ID="struct-map-reps-rep1" LABEL="representations/rep1/mets.xml">
@@ -709,7 +709,7 @@
             <mets:FLocat xlink:href="schemas/METS.xsd" xlink:type="simple" LOCTYPE="URL" />
           </mets:file>
         </mets:fileGrp>
-        <mets:fileGrp ID="filegrp-representation" USE="representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0">
+        <mets:fileGrp ID="filegrp-representation" USE="Representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0">
           <mets:file ID="file-ptr-repmets1" MIMETYPE="xml" SIZE="1338744" CREATED="2018-04-24T14:33:23.617+01:00" CHECKSUM="B1CF59678A21C2805370536AB1097735D7E9F3FDDDCAE3757426ED85F6350A48" CHECKSUMTYPE="SHA-256">
             <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="representations/rep1/mets.xml" />
           </mets:file>
@@ -717,11 +717,11 @@
       </mets:fileSec>
       <mets:structMap ID="struct-map-example-1" TYPE="PHYSICAL" LABEL="CSIP">
         <mets:div ID="struct-map-example-div" LABEL="struct-map-example">
-          <mets:div ID="struct-map-metadata-div" LABEL="metadata" DMDID="dmd-ehealth-file" ADMID="digiProv-eHealth-file rights-eHealth-file" />
-          <mets:div ID="struct-map-documentation-div" LABEL="documentation">
+          <mets:div ID="struct-map-metadata-div" LABEL="Metadata" DMDID="dmd-ehealth-file" ADMID="digiProv-eHealth-file rights-eHealth-file" />
+          <mets:div ID="struct-map-documentation-div" LABEL="Documentation">
             <mets:fptr FILEID="filegrp-documentation" />
           </mets:div>
-          <mets:div ID="struct-map-schema-div" LABEL="schemas">
+          <mets:div ID="struct-map-schema-div" LABEL="Schemas">
             <mets:fptr FILEID="filegrp-schemas" />
           </mets:div>
           <mets:div ID="struct-map-reps-rep1" LABEL="representations/rep1/mets.xml">
