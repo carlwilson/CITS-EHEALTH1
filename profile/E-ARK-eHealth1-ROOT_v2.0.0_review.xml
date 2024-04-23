@@ -166,7 +166,7 @@
             <dd>mets/@PROFILE</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP2</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -182,7 +182,7 @@
             <dd>mets/@TYPE</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP2</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -198,7 +198,7 @@
             <dd>mets[@TYPE='OTHER']/@csip:OTHERTYPE</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP3</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -208,7 +208,7 @@
       <requirement ID="EHR4" REQLEVEL="MUST" RELATEDMAT="VocabularyContentInformationTypeSpecification" EXAMPLES="metsRootElementExample1">
         <description>
           <head>Content Information Type Specification</head>
-          <p xmlns="http://www.w3.org/1999/xhtml"></p>The `mets/@csip:CONTENTINFORMATIONTYPE` attribute is set to the value "citsehpj_v2_0".<dl xmlns="http://www.w3.org/1999/xhtml"><dt>METS XPath</dt><dd>mets/@csip:CONTENTINFORMATIONTYPE</dd><dt>Cardinality</dt><dd>1..1</dd><dt>REF:CSIPv2.0.4</dt><dd>https://earkcsip.dilcis.eu/#CSIP4</dd><dt>since</dt><dd>v1.0.0</dd></dl></description>
+          <p xmlns="http://www.w3.org/1999/xhtml"></p>The `mets/@csip:CONTENTINFORMATIONTYPE` attribute is set to the value "citsehpj_v2_0".<dl xmlns="http://www.w3.org/1999/xhtml"><dt>METS XPath</dt><dd>mets/@csip:CONTENTINFORMATIONTYPE</dd><dt>Cardinality</dt><dd>1..1</dd><dt>REF:CSIPv2.1.0</dt><dd>https://earkcsip.dilcis.eu/#CSIP4</dd><dt>since</dt><dd>v1.0.0</dd></dl></description>
       </requirement>
     </metsRootElement>
     <metsHdr ID="metsHeaderElement">
@@ -224,7 +224,7 @@
             <dd>mets/metsHdr/altRecordID[@TYPE='SUBMISSIONAGREEMENT']</dd>
             <dt>Cardinality</dt>
             <dd>0..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP5</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -241,7 +241,7 @@
             <dd>mets/metsHdr/agent</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP9</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -257,7 +257,7 @@
             <dd>mets/metsHdr/agent[@ROLE='CREATOR']</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP10</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -273,7 +273,7 @@
             <dd>mets/metsHdr/agent[@TYPE='ORGANIZATION']</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP11</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -290,7 +290,7 @@
             <dd>mets/metsHdr/agent/name</dd>
             <dt>Cardinality</dt>
             <dd>1..n</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP12</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -307,7 +307,7 @@
             <dd>mets/metsHdr/agent/note</dd>
             <dt>Cardinality</dt>
             <dd>0..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP13</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -323,7 +323,7 @@
             <dd>mets/metsHdr/agent/note/@csip:NOTETYPE</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:SIPv2.0.4</dt>
+            <dt>REF:SIPv2.1.0</dt>
             <dd>https://earksip.dilcis.eu/#SIP14</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -341,7 +341,7 @@
             <dd>mets/dmdSec</dd>
             <dt>Cardinality</dt>
             <dd>1..n</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP17</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -357,7 +357,7 @@
             <dd>mets/dmdSec/mdRef</dd>
             <dt>Cardinality</dt>
             <dd>1..n</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP21</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -373,7 +373,7 @@
             <dd>mets/dmdSec/mdRef[@MDTYPE='OTHER']</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP25</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -416,7 +416,7 @@
             <dd>mets/fileSec</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP58</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -432,7 +432,7 @@
             <dd>mets/fileSec/fileGrp[@csip:CONTENTINFORMATIONTYPE='citsehpj_v2_0']</dd>
             <dt>Cardinality</dt>
             <dd>1..1</dd>
-            <dt>REF:CSIPv2.0.4</dt>
+            <dt>REF:CSIPv2.1.0</dt>
             <dd>https://earkcsip.dilcis.eu/#CSIP62</dd>
             <dt>since</dt>
             <dd>v1.0.0</dd>
@@ -496,85 +496,10 @@
     </note>
   </tool>
   <Example ID="metsRootElementExample1" LABEL="METS example of root METS element for an IP following the CITS eHealth1">
-    <mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd             http://www.w3.org/1999/xlink http://www.loc.gov/standards/mets/xlink.xsd             https://DILCIS.eu/XML/METS/CSIPExtensionMETS              https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd              https://DILCIS.eu/XML/METS/SIPExtensionMETS              https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd" OBJID="ehealth1-root-mets-example" TYPE="OTHER" csip:OTHERTYPE="Patient Medical Records" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0" LABEL="Patient Medical Records from Skane University Hospital" PROFILE="https://citsehealth1.dilcis.eu/profile/E-ARK-eHealth1-ROOT.xml">
-      <mets:metsHdr CREATEDATE="2018-04-24T14:37:49.602+01:00" LASTMODDATE="2018-04-24T14:37:49.602+01:00" RECORDSTATUS="NEW" csip:OAISPACKAGETYPE="SIP">
-        <mets:altRecordID TYPE="SUBMISSIONAGREEMENT">http://submissionagreement.kb.se/dnr331-1144-2011/20120711/</mets:altRecordID>
-        <mets:altRecordID TYPE="PREVIOUSSUBMISSIONAGREEMENT">http://submissionagreement.kb.se/dnr330-1122-2009/20110613/</mets:altRecordID>
-        <mets:altRecordID TYPE="REFERENCECODE">FM-12-2387/12726,2007-09-19</mets:altRecordID>
-        <mets:altRecordID TYPE="PREVIOUSREFERENCECODE">SE/FM/123/123.1/123.13</mets:altRecordID>
-        <mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
-          <mets:name>piql eHealth SIP Creator</mets:name>
-          <mets:note NOTETYPE="SOFTWARE VERSION">VERSION 1.1</mets:note>
-        </mets:agent>
-        <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
-          <mets:name>Skane University Hospital</mets:name>
-          <mets:note csip:NOTETYPE="IDENTIFICATIONCODE">ID:89101112 </mets:note>
-        </mets:agent>
-        <mets:agent ROLE="SUBMITTER" TYPE="INDIVIDUAL">
-          <mets:name>Sven Svensson</mets:name>
-          <mets:note csip:NOTETYPE="IDENTIFICATIONCODE">ID:4569865123</mets:note>
-        </mets:agent>
-        <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
-          <mets:name>Sven Svensson</mets:name>
-          <mets:note>Phone: 08-123456, Email: sven.svensson@mail.mail</mets:note>
-        </mets:agent>
-        <mets:agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
-          <mets:name>The Swedish Health Agency</mets:name>
-          <mets:note csip:NOTETYPE="IDENTIFICATIONCODE">ID:1234567</mets:note>
-        </mets:agent>
-      </mets:metsHdr>
-      <mets:dmdSec ID="dmd-ehealth-file" CREATED="2018-04-24T15:27:45.702+01:00" STATUS="CURRENT">
-        <mets:mdRef LOCTYPE="URL" xlink:href="metadata/descriptive/patients.xml" xlink:type="simple" MDTYPE="OTHER" OTHERMDTYPE="FHIR.Patient" MIMETYPE="application/xml" SIZE="643" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" />
-      </mets:dmdSec>
-      <mets:amdSec>
-        <mets:digiProvMD ID="digiProv-eHealth-file" STATUS="CURRENT">
-          <mets:mdRef LOCTYPE="URL" xlink:href="metadata/preservation/premis1.xml" xlink:type="simple" MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="984" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" />
-        </mets:digiProvMD>
-        <mets:rightsMD ID="rights-eHealth-file" STATUS="CURRENT">
-          <mets:mdRef LOCTYPE="URL" xlink:href="metadata/preservation/premis2.xml" xlink:type="simple" MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="563" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" />
-        </mets:rightsMD>
-      </mets:amdSec>
-      <mets:fileSec ID="filesec-docx-file-1">
-        <mets:fileGrp ID="filegrp-documentation" USE="Documentation">
-          <mets:file ID="file-ptr-documentation-file1" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessing.document" SIZE="43445212" CREATED="2012-08-15T12:08:15.432+01:00" CHECKSUM="160D71F56C2CE685CE7FBD679076FD76B3C67EE9AB5062F5EF5C99AE39C1F43B" CHECKSUMTYPE="SHA-256">
-            <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="documentation/File1.docx" />
-          </mets:file>
-          <mets:file ID="file-ptr-documentation-file2" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document" SIZE="31462826" CREATED="2012-08-15T14:44:45.432+01:00" CHECKSUM="0FE9683451D0390BCDEF19CE10CFD287A2D944B6A33D246681FEF27F44FFAF1D" CHECKSUMTYPE="SHA-256">
-            <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="documentation/File2.docx" />
-          </mets:file>
-        </mets:fileGrp>
-        <mets:fileGrp ID="filegrp-schemas" USE="Schemas">
-          <mets:file ID="file-ptr-schema1" MIMETYPE="text/xsd" SIZE="123917" CREATED="2018-04-24T14:37:49.617+01:00" CHECKSUM="4073D09CA1BAE023D5A7E2010819BF0E8A8EB3C015444D0673733630DE08461C" CHECKSUMTYPE="SHA-256">
-            <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="schemas/fhirpatient.xsd" />
-          </mets:file>
-          <mets:file MIMETYPE="application/xml" USE="Package METS" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:59:45" CHECKSUM="B565CA93CD86950503F233A7906E4DB709088BA42B9D109D4A8D6F183799603F" ID="file-ptr-schema2" SIZE="6814">
-            <mets:FLocat xlink:href="schemas/METS.xsd" xlink:type="simple" LOCTYPE="URL" />
-          </mets:file>
-        </mets:fileGrp>
-        <mets:fileGrp ID="filegrp-representation" USE="representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0">
-          <mets:file ID="file-ptr-repmets1" MIMETYPE="xml" SIZE="1338744" CREATED="2018-04-24T14:33:23.617+01:00" CHECKSUM="B1CF59678A21C2805370536AB1097735D7E9F3FDDDCAE3757426ED85F6350A48" CHECKSUMTYPE="SHA-256">
-            <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="representations/rep1/mets.xml" />
-          </mets:file>
-        </mets:fileGrp>
-      </mets:fileSec>
-      <mets:structMap ID="struct-map-example-1" TYPE="PHYSICAL" LABEL="CSIP">
-        <mets:div ID="struct-map-example-div" LABEL="csip-mets-example">
-          <mets:div ID="struct-map-metadata-div" LABEL="metadata" DMDID="dmd-ehealth-file" ADMID="digiProv-eHealth-file rights-eHealth-file" />
-          <mets:div ID="struct-map-documentation-div" LABEL="documentation">
-            <mets:fptr FILEID="filegrp-documentation" />
-          </mets:div>
-          <mets:div ID="struct-map-schema-div" LABEL="schemas">
-            <mets:fptr FILEID="filegrp-schemas" />
-          </mets:div>
-          <mets:div ID="struct-map-reps-rep1" LABEL="representations/rep1/mets.xml">
-            <mets:mptr LOCTYPE="URL" xlink:type="simple" xlink:href="representations/rep1/METS.xml" xlink:title="filegrp-representation" />
-          </mets:div>
-        </mets:div>
-      </mets:structMap>
-    </mets:mets>
+    <mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd             http://www.w3.org/1999/xlink http://www.loc.gov/standards/mets/xlink.xsd             https://DILCIS.eu/XML/METS/CSIPExtensionMETS              https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd              https://DILCIS.eu/XML/METS/SIPExtensionMETS              https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS" xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" OBJID="ehealth1-root-mets-example" TYPE="OTHER" csip:OTHERTYPE="Patient Medical Records" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0" LABEL="Patient Medical Records from Skane University Hospital" PROFILE="https://citsehealth1.dilcis.eu/profile/E-ARK-eHealth1-ROOT.xml"></mets:mets>
   </Example>
   <Example ID="metsHdrElementExample1" LABEL="METS example of root METS Header for an IP following CITS eHealth1">
-    <mets:metsHdr CREATEDATE="2018-04-24T14:37:49.602+01:00" LASTMODDATE="2018-04-24T14:37:49.602+01:00" RECORDSTATUS="NEW" csip:OAISPACKAGETYPE="SIP">
+    <mets:metsHdr CREATEDATE="2018-04-24T14:37:49.602+01:00" LASTMODDATE="2018-04-24T14:37:49.602+01:00" RECORDSTATUS="NEW" csip:OAISPACKAGETYPE="SIP" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS" xmlns:mets="http://www.loc.gov/METS/">
       <mets:altRecordID TYPE="SUBMISSIONAGREEMENT">http://submissionagreement.kb.se/dnr331-1144-2011/20120711/</mets:altRecordID>
       <mets:altRecordID TYPE="PREVIOUSSUBMISSIONAGREEMENT">http://submissionagreement.kb.se/dnr330-1122-2009/20110613/</mets:altRecordID>
       <mets:altRecordID TYPE="REFERENCECODE">FM-12-2387/12726,2007-09-19</mets:altRecordID>
@@ -587,13 +512,9 @@
         <mets:name>Skane University Hospital</mets:name>
         <mets:note csip:NOTETYPE="IDENTIFICATIONCODE">ID:89101112 </mets:note>
       </mets:agent>
-      <mets:agent ROLE="SUBMITTER" TYPE="INDIVIDUAL">
-        <mets:name>Sven Svensson</mets:name>
-        <mets:note csip:NOTETYPE="IDENTIFICATIONCODE">ID:4569865123</mets:note>
-      </mets:agent>
       <mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
         <mets:name>Sven Svensson</mets:name>
-        <mets:note>Phone: 08-123456, Email: sven.svensson@mail.mail</mets:note>
+        <mets:note>Phone: 08-123456, email: sven.svensson@mail.mail</mets:note>
       </mets:agent>
       <mets:agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
         <mets:name>The Swedish Health Agency</mets:name>
@@ -601,9 +522,9 @@
       </mets:agent>
     </mets:metsHdr>
   </Example>
-  <Example ID="dmdSecExample1" LABEL="METS example of Root METS dmdSec with reference to HL7 FHIR Patient Administrative Information is used">
+  <Example ID="dmdSecExample1" LABEL="METS example of Root METS dmdSec following CITS eHealth1 with reference to HL7 FHIR Patient Administrative Information is used">
     <mets:dmdSec ID="dmd-ehealth-file" CREATED="2018-04-24T15:27:45.702+01:00" STATUS="CURRENT">
-      <mets:mdRef LOCTYPE="URL" xlink:href="metadata/descriptive/patients.xml" xlink:type="simple" MDTYPE="OTHER" OTHERMDTYPE="FHIR.Patient" MIMETYPE="application/xml" SIZE="643" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" xmlns:xlink="http://www.w3.org/1999/xlink" />
+      <mets:mdRef LOCTYPE="URL" xlink:href="metadata/descriptive/patients.xml" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" MDTYPE="OTHER" OTHERMDTYPE="FHIR.Patient" MIMETYPE="application/xml" SIZE="643" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" />
     </mets:dmdSec>
   </Example>
   <Example ID="amdSecExample1" LABEL="METS example of root METS amdSec for an IP following CITS eHealth1">
@@ -611,30 +532,30 @@
       <mets:mdRef LOCTYPE="URL" xlink:href="metadata/preservation/premis1.xml" xlink:type="simple" MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="984" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" xmlns:xlink="http://www.w3.org/1999/xlink" />
     </mets:digiProvMD>
     <mets:rightsMD ID="rights-eHealth-file" STATUS="CURRENT">
-      <mets:mdRef LOCTYPE="URL" xlink:href="metadata/preservation/premis2.xml" xlink:type="simple" MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="563" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" xmlns:xlink="http://www.w3.org/1999/xlink" />
+      <mets:mdRef LOCTYPE="URL" xlink:href="metadata/preservation/premis2.xml" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" MDTYPE="PREMIS" MIMETYPE="application/xml" SIZE="563" CREATED="2018-04-24T14:11:29.309+01:00" CHECKSUM="66EEDDF0A22EF57078694B67CA45DF301034556D6CB493531356C4FFE92AB6B1" CHECKSUMTYPE="SHA-256" />
     </mets:rightsMD>
   </Example>
-  <Example ID="fileSecExample1" LABEL="METS example  of root METS fileSec for an IP following CITA eHealth1">
+  <Example ID="fileSecExample1" LABEL="METS example of Root METS fileSec following CITS eHealth1 with file information.">
     <mets:fileSec ID="file-sec-example">
       <mets:fileGrp ID="filegrp-documentation" USE="Documentation">
-        <mets:file ID="file-ptr-documentation-file1" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessing.document" SIZE="43445212" CREATED="2012-08-15T12:08:15.432+01:00" CHECKSUM="160D71F56C2CE685CE7FBD679076FD76B3C67EE9AB5062F5EF5C99AE39C1F43B" CHECKSUMTYPE="SHA-256">
-          <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="documentation/File1.docx" xmlns:xlink="http://www.w3.org/1999/xlink" />
+        <mets:file ID="file-submission-agreement" MIMETYPE="application/pdf" SIZE="43445212" CREATED="2012-08-15T12:08:15.432+01:00" CHECKSUM="160D71F56C2CE685CE7FBD679076FD76B3C67EE9AB5062F5EF5C99AE39C1F43B" CHECKSUMTYPE="SHA-256">
+          <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:type="simple" xlink:href="documentation/subagreement.pdf" />
         </mets:file>
-        <mets:file ID="file-ptr-documentation-file2" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document" SIZE="31462826" CREATED="2012-08-15T14:44:45.432+01:00" CHECKSUM="0FE9683451D0390BCDEF19CE10CFD287A2D944B6A33D246681FEF27F44FFAF1D" CHECKSUMTYPE="SHA-256">
-          <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="documentation/File2.docx" xmlns:xlink="http://www.w3.org/1999/xlink" />
+        <mets:file ID="file-ptr-documentation-file" MIMETYPE="application/vnd.openxmlformats-officedocument.wordprocessingml.document" SIZE="31462826" CREATED="2012-08-15T14:44:45.432+01:00" CHECKSUM="0FE9683451D0390BCDEF19CE10CFD287A2D944B6A33D246681FEF27F44FFAF1D" CHECKSUMTYPE="SHA-256">
+          <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:type="simple" xlink:href="documentation/file2.docx" />
         </mets:file>
       </mets:fileGrp>
       <mets:fileGrp ID="filegrp-schemas" USE="Schemas">
         <mets:file ID="file-ptr-schema1" MIMETYPE="text/xsd" SIZE="123917" CREATED="2018-04-24T14:37:49.617+01:00" CHECKSUM="4073D09CA1BAE023D5A7E2010819BF0E8A8EB3C015444D0673733630DE08461C" CHECKSUMTYPE="SHA-256">
           <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="schemas/fhirpatient.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" />
         </mets:file>
-        <mets:file MIMETYPE="application/xml" USE="Package METS" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:59:45" CHECKSUM="B565CA93CD86950503F233A7906E4DB709088BA42B9D109D4A8D6F183799603F" ID="file-ptr-schema2" SIZE="6814">
-          <mets:FLocat xlink:href="schemas/METS.xsd" xlink:type="simple" LOCTYPE="URL" xmlns:xlink="http://www.w3.org/1999/xlink" />
+        <mets:file MIMETYPE="application/xml" USE="Package METS" CHECKSUMTYPE="SHA-256" CREATED="2015-12-04T09:59:45" CHECKSUM="B565CA93CD86950503F233A7906E4DB709088BA42B9D109D4A8D6F183799603F" ID="file-ptr-schema2" SIZE="6814" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mets:FLocat xlink:href="schemas/METS.xsd" xlink:type="simple" LOCTYPE="URL" />
         </mets:file>
       </mets:fileGrp>
-      <mets:fileGrp ID="filegrp-representation" USE="Representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS">
-        <mets:file ID="file-ptr-repmets1" MIMETYPE="xml" SIZE="1338744" CREATED="2018-04-24T14:33:23.617+01:00" CHECKSUM="B1CF59678A21C2805370536AB1097735D7E9F3FDDDCAE3757426ED85F6350A48" CHECKSUMTYPE="SHA-256">
-          <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="representations/rep1/mets.xml" xmlns:xlink="http://www.w3.org/1999/xlink" />
+      <mets:fileGrp xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS" ID="filegrp-representation" USE="Representations" ADMD="digiProv-eHealth-file rights-eHealth-file" DMDID="dmd-eHealth-file" csip:CONTENTINFORMATIONTYPE="citsehpj_v2_0">
+        <mets:file ID="file-ptr-repmets1" MIMETYPE="xml" SIZE="1338744" CREATED="2018-04-24T14:33:23.617+01:00" CHECKSUM="B1CF59678A21C2805370536AB1097735D7E9F3FDDDCAE3757426ED85F6350A48" CHECKSUMTYPE="SHA-256" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="representations/rep1/mets.xml" />
         </mets:file>
       </mets:fileGrp>
     </mets:fileSec>
