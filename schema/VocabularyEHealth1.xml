@@ -27,10 +27,6 @@
       <Definition>Each Case or Sub-case can contain individual Data Files that are related logically and together form  Documents (e.g. a book, video, image and annotation, document and audio notes).</Definition>
     </Entry>
     <Entry>
-      <Term lang="en">Datafile</Term>
-      <Definition>Data Files are components that contain data and have associated MIME file types.  A Data File can be a single bit stream or can encapsulate bit streams and attributes according to a standard such as a DICOM or MP4.</Definition>
-    </Entry>
-    <Entry>
       <Term lang="en">Data</Term>
       <Definition>Data specifies that the section describes the data in the package/representation.</Definition>
     </Entry>
