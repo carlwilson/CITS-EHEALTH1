@@ -2,7 +2,7 @@
 <!-- 2021-08-31 Updated to version supporting specification with value citsehpj_v2_0 -->
 <!-- 2020-10-01 Draft of E-ARK eHealth METS Profile 1.0 -->
 <!-- 2023-03-30 Draft of E-ARK eHealth1 Profile 1.0.1 -->
-<!--2023-06-14 Draft oif E-ARK eHealth Profile 2.0.0-->
+<!--2024-05-07 Update for v2.0.0 of the specification-->
 <METS_Profile xmlns="http://www.loc.gov/METS_Profile/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS" xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/METS_Profile/v2 http://www.loc.gov/standards/mets/profile_docs/mets.profile.v2-0.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.w3.org/1999/xlink http://www.loc.gov/standards/mets/xlink.xsd" STATUS="provisional" REGISTRATION="unregistered" ID="eHealth1ROOTV2.0.0">
   <URI LOCTYPE="URL" ASSIGNEDBY="local">https://citsehealth1.dilcis.eu/profile/E-ARK-eHealth1-ROOT.xml</URI>
   <title>E-ARK eHealth1 root METS Profile 2.0.0 (citsehpj_v2_0)</title>
