@@ -14,4 +14,15 @@ The levels of the aggregation in an eHealth1 package are as follows:
 <a name="fig3"></a>
 ![eHealth1 SIP Data Model](/specification/figs/fig_3_eHealth1_SIP_Data_Model.svg "eHealth1 SIP Data Model")
 
-**Figure 2:** eHealth1 SIP Data Model
+**Figure 3:** eHealth1 SIP Data Model
+Using the eHealth1 specification together with the Common Specification for Information Packages (CSIP)
+The eHealth1 specification conforms to and extends the Common Specification for Information Packages (CSIP) and the Specification for Submission Information Packages (E-ARK SIP). When extractions are made from EMR systems according to the structure described, they can be transmitted in a package following the principles described in the CSIP and IP specifications.
+# Placement of data in an eHealth1 Information Package
+Patient data will most likely be submitted by hospitals or other healthcare providers in periodic batches, consisting of multiple patient records. The eHealth1 specification allows for the inclusion of multiple patients per package, and so these batches can be transmitted in a single submission. The number of patients included in each AIP is then a matter for local implementation, (see 6.1).
+Patient Medical Records are placed in a single representation within the ‘representations’ folder of the package. The representation should contain a METS file at its root (Representation METS), the folder structure of the representation should follow that defined by the CSIP and it must have a data folder. Within the data folder, there should be a folder for each Patient Record identified by a name that is unique within the package scope, follows the requirements of CSIP and contains to the Patient’s unique individual ID.
+It is recommended, but not mandated that within each Patient Record folder that there are further folders that physically represent a Case, Sub-case, Document structure to aid human readability and navigation of the archive. If Patient Administrative and Patient Clinical Information is to be supplied, then this should be included at the root of each Patient Record. Figure 4 shows an example of a folder structure for a package where there are multiple Patient submissions and Patient Clinical information is included.
+The package should contain a patient administrative information or manifest file within the root metadata/descriptive folder that at minimum contains the names of the patients whose records are contained in the package and a reference to their Patient ID.
+<a name="fig4"></a>
+![eHealth_SIP_Package_Structure](/specification/figs/fig_4_package_structure.svg "eHealth1_Package_Structure")
+
+**Figure 4:** Example of Package Folder Structure and Multiple Patient Submissions and Case Structure
