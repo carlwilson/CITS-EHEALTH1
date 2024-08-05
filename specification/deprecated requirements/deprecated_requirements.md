@@ -7,76 +7,19 @@ The work to improve this specification is ongoing. On occasion we retire a requi
 |EHR18 ref CSIP60|Documentation file group, fileSec/fileGrp/@USE, All documentation pertaining to the package should be referenced from one or more file groups with the ‘mets/fileSec/fileGrp/@USE’ attribute value ”Documentation”. Note that any documentation pertaining to the transferred content is referenced within the representation METS files.|1..n, MUST|
 |EHR19 ref CSIP113|Schema file group, fileSec/fileGrp/@USE, All XML schemas used in the information package MUST be referenced from one or more file group elements with ‘mets/fileSec/fileGrp/@USE’ attribute value ”Schemas”. Schemas common to the transferred content should be held in the root schemas folder.|1..n, MUST|
 |EHR20 ref CSIP114|Representations file group, fileSec/fileGrp/@USE, Pointers to each of the METS documents describing the representations MUST be present in file groups with the ‘mets/fileSec/fileGrp/ @USE’ attribute ”Representations”.|1..n, MUST|
-EHR21
-ref CSIP61	Reference to administrative metadata
-fileSec/filegrp/@ADMID
-If administrative metadata has been provided at file group ‘mets/fileSec/fileGrp/’ level, this attribute refers to its administrative metadata section by ID.
-For example, there are rights and/or digital provenance metadata that are general to the package.	0..1
-MAY
-EHR23
-ref CSIP105	Representation division
-mets/structMap[@LABEL=’CSIP’]/div/div
-There must be a discrete `div` element for each Patient Medical Record.	1..n
-MUST
-EH6
-Ref CSIP17	Descriptive metadata
-dmdSec
-Used to reference Patient Clinical Information held in the metadata/descriptive folder of the representation.
-There is one dmdSec present for each descriptive metadata file located in the “metadata/descriptive” section of the representation.	1..n
-MUST
-EH7
-ref CSIP18	Descriptive metadata identifier
-dmdSec/@ID
-An xml:id identifier for the descriptive metadata section (<dmdSec>) used for internal package references. It must be unique within the package.	1..1
-MUST
-EH8
-ref CSIP21	Reference to the document with the descriptive metadata
-mets/dmdSec/mdRef
-There MUST be a reference to the descriptive metadata file located in the folder “metadata/descriptive” of the representation. 	1..1
-MUST
-EH9
-ref CSIP25	Type of metadata
-mets/dmdSec/mdref/@MDTYPE
-The value for the metadata type is set to “OTHER”.	1..1
-MUST
-EH10
-ref CSIP21	Reference to the document with the descriptive metadata
-dmdSec/mdRef
-There MUST be a reference to the descriptive metadata file located in the folder “metadata/descriptive” of the representation. 	1..1
-MUST
-EH11
-ref CSIP25	Type of metadata
-dmdSec/mdref/@MDTYPE
-The value for the metadata type is set to “OTHER”.	1..1
-MUST
-EH12	Type of other metadata
-dmdSec/mdref/@OTHERMDTYPE
-Specifies the type of metadata used for Patient Clinical  Information. 
-For example, the value will be “fhircondition” if the FHIR Condition resource is used
-	1..1
-MUST
-EH16
-Ref CSIP61	Reference to Patient Document administrative metadata
-fileSec/filegrp/@ADMID
-
-If administrative metadata has been provided at a filegroup level. For example there are rights and/or digital provenance metadata that is specific to the Patient Document, then this attribute refers to the <amdSec> of the representation METS.xml by ID.
-	1..1
-MAY
-EH18
-ref CSIP65	Representation (Patient Document) file group identifier
-fileSec/fileGrp/@ID
-An xml:id identifier for the file group used for internal package references. It must be unique within the package.	1..1
-MUST
-EH20
-ref CSIP66	File
-fileSec/filegrp/file
-The file group <fileGrp> contains the file elements which describe the digital objects.	1..1
-MUST
-EH21
-ref CSIP75	File reference to Descriptive Metadata
-fileSec/fileGrp/file/@DMDID
-If descriptive metadata had been provided per file, this attribute refers to the file’s descriptive metadata by ID	0..1
-MAY
+|EHR21 ref CSIP61|Reference to administrative metadata, fileSec/filegrp/@ADMID, If administrative metadata has been provided at file group ‘mets/fileSec/fileGrp/’ level, this attribute refers to its administrative metadata section by ID. For example, there are rights and/or digital provenance metadata that are general to the package.|0..1, MAY|
+|EHR23 ref CSIP105|Representation division, mets/structMap[@LABEL=’CSIP’]/div/div, There must be a discrete `div` element for each Patient Medical Record.|1..n, MUST|
+|EH6 Ref CSIP17|Descriptive metadata, dmdSec, Used to reference Patient Clinical Information held in the metadata/descriptive folder of the representation. There is one dmdSec present for each descriptive metadata file located in the “metadata/descriptive” section of the representation.|1..n, MUST|
+|EH7 ref CSIP18|Descriptive metadata identifier, dmdSec/@ID, An xml:id identifier for the descriptive metadata section (<dmdSec>) used for internal package references. It must be unique within the package.|1..1, MUST|
+|EH8 ref CSIP21|Reference to the document with the descriptive metadata, mets/dmdSec/mdRef, There MUST be a reference to the descriptive metadata file located in the folder “metadata/descriptive” of the representation.|1..1, MUST|
+|EH9 ref CSIP25|Type of metadata, mets/dmdSec/mdref/@MDTYPE, The value for the metadata type is set to “OTHER”.|1..1, MUST|
+|EH10 ref CSIP21|Reference to the document with the descriptive metadata, dmdSec/mdRef, There MUST be a reference to the descriptive metadata file located in the folder “metadata/descriptive” of the representation.|1..1, MUST|
+|EH11 ref CSIP25|Type of metadata, dmdSec/mdref/@MDTYPE, The value for the metadata type is set to “OTHER”.|1..1, MUST|
+|EH12|Type of other metadata, dmdSec/mdref/@OTHERMDTYPE, Specifies the type of metadata used for Patient Clinical  Information. For example, the value will be “fhircondition” if the FHIR Condition resource is used.|1..1, MUST|
+|EH16 Ref CSIP61|Reference to Patient Document administrative metadata, fileSec/filegrp/@ADMID, If administrative metadata has been provided at a filegroup level. For example there are rights and/or digital provenance metadata that is specific to the Patient Document, then this attribute refers to the <amdSec> of the representation METS.xml by ID.|1..1, MAY|
+|EH18 ref CSIP65|Representation (Patient Document) file group identifier, fileSec/fileGrp/@ID, An xml:id identifier for the file group used for internal package references. It must be unique within the package.|1..1, MUST|
+|EH20 ref CSIP66|File, fileSec/filegrp/file, The file group <fileGrp> contains the file elements which describe the digital objects.|1..1, MUST|
+|EH21 ref CSIP75|File reference to Descriptive Metadata, fileSec/fileGrp/file/@DMDID, If descriptive metadata had been provided per file, this attribute refers to the file’s descriptive metadata by ID.|0..1, MAY|
 EH27
 ref CSIP80
 	Structural description of the representation
