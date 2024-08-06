@@ -20,141 +20,29 @@ The work to improve this specification is ongoing. On occasion we retire a requi
 |EH18 ref CSIP65|Representation (Patient Document) file group identifier, fileSec/fileGrp/@ID, An xml:id identifier for the file group used for internal package references. It must be unique within the package.|1..1, MUST|
 |EH20 ref CSIP66|File, fileSec/filegrp/file, The file group <fileGrp> contains the file elements which describe the digital objects.|1..1, MUST|
 |EH21 ref CSIP75|File reference to Descriptive Metadata, fileSec/fileGrp/file/@DMDID, If descriptive metadata had been provided per file, this attribute refers to the file’s descriptive metadata by ID.|0..1, MAY|
-EH27
-ref CSIP80
-	Structural description of the representation
-Each representation METS file must include ONE structural map <structMap> element exactly as described here. 
-Institutions can add their own additional custom structural maps as separate <structMap>  sections.	1..n
-MUST
-EH29
-ref CSIP81
-	Type of structural division
-mets/structMap/@TYPE
-The ‘mets/structMap/@TYPE’  attribute MUST take the value of  ”PHYSICAL” from the vocabulary. An additional structural description  @TYPE “Virtual” could be added to describe a virtual Case structure that has not been realised in physical folders.  
-See also: Structural map typing
-1..1 
-MUST
-EH32
-Ref CSIP84	Main structural division
-structMap/div/@LABEL
-The representation’s top-level structural division <div> element’s `@LABEL` attribute value must be identical to the representation (Patient Medical Record) identifier, i.e. the same value as the `mets/@OBJID` attribute.	1..1
-MUST
-EH33
-Ref CSIP85	Main structural division identifier
-structMap/div/@ID
-Mandatory,  ‘xml:id’ identifier must be unique within the package.	1..1
-MUST
-EH34
-Ref CSIP86	Main structural division label
-structMap/div/@LABEL
-The representation’s top-level structural division <div> element’s `@LABEL` attribute value must be identical to the representation (Patient Medical Record) identifier, i.e. the same value as the `mets/@OBJID` attribute	1..1
-MUST
-EH35
-Ref CSIP88	Metadata division
-structMap/div/div
-The metadata referenced in the administrative and/or descriptive metadata section is described in the structural map with one sub division. When the transfer consists of only administrative and/or descriptive metadata this is the only sub division that occurs.	1..1
-MUST
-EH36
-Ref CSIP89	Metadata division identifier
-structMap/div/div/@ID
-Mandatory xml:id identifier must be unique within the package.	1..1
-MUST
-EH37
-Ref CSIP90	Metadata division label
-structMap/div/div/@LABEL
-The metadata division <div> element's `@LABEL` attribute value must be "Metadata".	1..1
-MUST
-EH38
-Ref CSIP91	Metadata division administrative metadata referencing
-structMap/div/div/@ADMID
-When there is administrative metadata, and the <amdSec> is present, all administrative metadata MUST be referenced via the administrative sections different identifiers.
-All of the <amdSec> identifiers are listed in a single `@ADMID` using spaces as delimiters.	0..1
-SHOULD
-EH39
-Ref CSIP92	Metadata division descriptive metadata referencing
-structMap/div/div/@DMDID
-When there are descriptive metadata and one or more <dmdSec> is present, all descriptive metadata MUST be referenced via the descriptive section identifiers.
-Every <dmdSec> identifier is listed in a single `@DMDID` attribute using spaces as delimiters.
-Descriptive metadata in the representation will include clinical metadata as described in 7.3.3.	0..1
-SHOULD
-EH40
-Ref CSIP93	Documentation division
-structmap/div/div/
-The documentation referenced in the file section file groups is described in the structural map with one sub-division.	0..1
-SHOULD
-EH41
-Ref CSIP94	Documentation division identifier
-structMap/div/div/@ID
-Mandatory, xml:id identifier must be unique within the package.	1..1
-MUST
-EH42
-Ref CSIP95	Documentation division label
-structMap/div/div/@LABEL
-The documentation division <div> element in the package uses the value “Documentation” from the vocabulary as the value for the `@LABEL` attribute.	1..1
-MUST
-EH43
-Ref CSIP96	Documentation file referencing
-structMap/div/div/@CONTENTID
-All file groups containing documentation described in the package are referenced via the relevant file group identifiers. There MUST be one file group reference per <fptr> element.	1..1
-MUST
-EH44
-Ref CSIP116	Documentation file group pointer
-structMap/div/div/fptr/@ID
-A reference, by ID, to the “Documentation” file group.
-
-Related to the requirements which describe the “Documentation” file group in CSIP and the requirement which describes the file group identifier.	1..1
-MUST
-EH53	Data File division
-mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/
-Data Files are components that contain data and have associated MIME file types.
-A Data File can be a single bit stream or can encapsulate bit streams and attributes according to a standard such as a DICOM or MP4.	1..n
-MUST
-EH54	Data File division identifier
-mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/@ID
-Mandatory, xml:id identifier must be unique within the package.	1..1
-MUST
-EH55	Data File division label
-mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/[@LABEL=’DATAFILE’]
-The Data File division `<div> element must have the `@LABEL` attribute value “DATAFILE”, taken from the vocabulary.	1..1
-MUST
-EH56	Data File division file group  reference
-mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/fptr
-All file groups containing content described in the package are referenced via the relevant file group identifiers. One file group reference per fptr-element.	1..1
-MUST
-EH57	Data File division file group reference ID
-mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/fptr/@FILEID
-The pointer to the identifier for the file group containing the data files.	1..1
-MUST
-EH58	Data File division file group reference ID
-
-structMap/div/div/div/div/div/fptr/@FILEID
-The pointer to the identifier for the file group containing the data files.	1..1
-MUST
-EH65	Data File division
-
-structMap/div/div/div/div/div/div/	1..n
-MAY
-	Data Files are components that contain data and have associated MIME file types.  A Data File can be a single bit stream or can encapsulate bit streams and attributes according to a standard such as a DICOM or MP4.
-	
-EH66	Data File division identifier
-
-structMap/div/div/div/div/div/div/@ID
-Mandatory, xml:id identifier must be unique within the package
-	1..1
-MUST
-EH67	Data File division label
-
-StructMap/div/div/div/div/div/div/@LABEL
-The Data File division <div> elements must have the @LABEL attribute value ”DATAFILE”, taken from the vocabulary.
-	1..1
-MUST
-EH68	Data File division file group reference
-
-structMap/div/div/div/div/div/div/fptr/
-All file groups containing content described in the package are referenced via the relevant file group identifiers—one file group reference per fptr-element.
-	
-EH69	Data File division file group reference ID
-mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/div/fptr/@FILEID
-The pointer to the identifier for the file group containing the data files	1..1
-
-MUST
+|EH27 ref CSIP80|Structural description of the representation, Each representation METS file must include ONE structural map <structMap> element exactly as described here. Institutions can add their own additional custom structural maps as separate <structMap> sections.|1..n, MUST|
+|EH29 ref CSIP81|Type of structural division, mets/structMap/@TYPE, The ‘mets/structMap/@TYPE’ attribute MUST take the value of  ”PHYSICAL” from the vocabulary. An additional structural description @TYPE “Virtual” could be added to describe a virtual Case structure that has not been realised in physical folders. See also: Structural map typing.|1..1, MUST|
+|EH32 Ref CSIP84|Main structural division, structMap/div/@LABEL, The representation’s top-level structural division <div> element’s `@LABEL` attribute value must be identical to the representation (Patient Medical Record) identifier, i.e. the same value as the `mets/@OBJID` attribute.|1..1, MUST|
+|EH33 Ref CSIP85|Main structural division identifier, structMap/div/@ID, Mandatory, ‘xml:id’ identifier must be unique within the package.|1..1, MUST|
+|EH34 Ref CSIP86|Main structural division label, structMap/div/@LABEL, The representation’s top-level structural division <div> element’s `@LABEL` attribute value must be identical to the representation (Patient Medical Record) identifier, i.e. the same value as the `mets/@OBJID` attribute.|1..1,MUST|
+|EH35 Ref CSIP88|Metadata division, structMap/div/div, The metadata referenced in the administrative and/or descriptive metadata section is described in the structural map with one sub division. When the transfer consists of only administrative and/or descriptive metadata this is the only sub division that occurs.|1..1, MUST|
+|EH36 Ref CSIP89|Metadata division identifier, structMap/div/div/@ID, Mandatory xml:id identifier must be unique within the package.|1..1, MUST|
+|EH37 Ref CSIP90|Metadata division label, structMap/div/div/@LABEL, The metadata division <div> element's `@LABEL` attribute value must be "Metadata".|1..1, MUST|
+|EH38 Ref CSIP91|Metadata division administrative metadata referencing, structMap/div/div/@ADMID, When there is administrative metadata, and the <amdSec> is present, all administrative metadata MUST be referenced via the administrative sections different identifiers. All of the <amdSec> identifiers are listed in a single `@ADMID` using spaces as delimiters.|0..1, SHOULD|
+|EH39 Ref CSIP92|Metadata division descriptive metadata referencing, structMap/div/div/@DMDID, When there are descriptive metadata and one or more <dmdSec> is present, all descriptive metadata MUST be referenced via the descriptive section identifiers. Every <dmdSec> identifier is listed in a single `@DMDID` attribute using spaces as delimiters. Descriptive metadata in the representation will include clinical metadata as described in 7.3.3.|0..1, SHOULD|
+|EH40 Ref CSIP93|Documentation division, structmap/div/div/, The documentation referenced in the file section file groups is described in the structural map with one sub-division.|0..1, SHOULD|
+|EH41 Ref CSIP94|Documentation division identifier, structMap/div/div/@ID, Mandatory, xml:id identifier must be unique within the package.|1..1, MUST|
+|EH42 Ref CSIP95|Documentation division label, structMap/div/div/@LABEL. The documentation division <div> element in the package uses the value “Documentation” from the vocabulary as the value for the `@LABEL` attribute.|1..1, MUST|
+|EH43 Ref CSIP96|Documentation file referencing, structMap/div/div/@CONTENTID, All file groups containing documentation described in the package are referenced via the relevant file group identifiers. There MUST be one file group reference per <fptr> element.|1..1, MUST|
+|EH44 Ref CSIP116|Documentation file group pointer, structMap/div/div/fptr/@ID, A reference, by ID, to the “Documentation” file group. Related to the requirements which describe the “Documentation” file group in CSIP and the requirement which describes the file group identifier.|1..1, MUST|
+|EH53|Data File division, mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/, Data Files are components that contain data and have associated MIME file types. A Data File can be a single bit stream or can encapsulate bit streams and attributes according to a standard such as a DICOM or MP4.|1..n, MUST|
+|EH54|Data File division identifier, mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/@ID, Mandatory, xml:id identifier must be unique within the package.|1..1, MUST|
+|EH55|Data File division label, mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/[@LABEL=’DATAFILE’], The Data File division `<div> element must have the `@LABEL` attribute value “DATAFILE”, taken from the vocabulary.|1..1, MUST|
+|EH56|Data File division file group  reference, mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/fptr, All file groups containing content described in the package are referenced via the relevant file group identifiers. One file group reference per fptr-element.|1..1, MUST|
+|EH57|Data File division file group reference ID. mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/fptr/@FILEID, The pointer to the identifier for the file group containing the data files.|1..1, MUST|
+|EH58|Data File division file group reference ID,structMap/div/div/div/div/div/fptr/@FILEID, The pointer to the identifier for the file group containing the data files.|1..1, MUST|
+|EH65|Data File division, structMap/div/div/div/div/div/div/, Data Files are components that contain data and have associated MIME file types.  A Data File can be a single bit stream or can encapsulate bit streams and attributes according to a standard such as a DICOM or MP4.|1..n, MAY|
+|EH66|Data File division identifier, structMap/div/div/div/div/div/div/@ID, Mandatory, xml:id identifier must be unique within the package.|1..1, MUST|
+|EH67|Data File division label, StructMap/div/div/div/div/div/div/@LABEL, The Data File division <div> elements must have the @LABEL attribute value ”DATAFILE”, taken from the vocabulary.|1..1, MUST|
+|EH68|Data File division file group reference, structMap/div/div/div/div/div/div/fptr/, All file groups containing content described in the package are referenced via the relevant file group identifiers—one file group reference per fptr-element.|1..1, MUST|
+|EH69|Data File division file group reference ID, mets/structMap[@LABEL=’eHealth1’]/div/div/div/div/div/div/div/fptr/@FILEID, The pointer to the identifier for the file group containing the data files. |1..1, MUST|
