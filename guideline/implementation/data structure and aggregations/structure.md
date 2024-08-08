@@ -17,6 +17,24 @@ The levels of the aggregation in an eHealth1 package are as follows:
 - Byte Stream: A Byte Stream is a component that contains data, has an associated MIME file type and is encapsulated in a container such as MP4, DICOM or Matroska. Each Byte Stream has its own associated metadata, such as technical metadata which is generally only accessible with specialised tools (such as ffprobe for video container formats).
 
 <a name="fig3"></a>
-![eHealth1 SIP Data Model](/guideline/figs/fig_3_eHealth1_SIP_data_model.svg "Data Model Structure")
+![eHealth1 SIP Data Model](/guideline/figs/fig_3_eHealth1_SIP_Data_Model.svg "Data Model Structure")
 
 **Figure 3:** eHealth1 SIP Data Model Structure
+
+## Examples of Different Patient Record Submissions
+With the flexibility of the structure of the eHealth1 archival package and the differences that are likely to be found in making Patient Medical Record extractions from disparate EMR systems, there can be expected to be different cases for the extraction of records.
+### Example 1: The entire archived Patient Medical Record as one file (document)
+In this example, the extraction of a Patient’s Medical Record consists of one unstructured file in, for example, PDF format, which contains a complete extract from an EMR system. In such a case, an archived Patient Medical Record will consist of one Case containing one Document and one Data File(see Figure 4).
+
+<a name="fig4"></a>
+![Archived Patient Medical Record as one File](/guideline/figs/fig_4_archived_patient_medical_record_one_file.svg "Archived Patient Medical Record as one File")
+
+**Figure 4:** Archived Patient Medical Record as one File
+
+### Example 2: The archived Patient Medical Record as a set of thematic files (documents)
+In this example, extraction of the Patient’s Medical Record consists of a set of unstructured files, typically PDF documents, where each file includes all of the information within a subject/theme that reflects the organisation of information in the current system. In this example, an Archived Patient Medical Record would consist of a number of Cases, each containing one Document, each containing one Data File (see Figure 5).
+
+<a name="fig5"></a>
+![Archived Patient Medical Record set of Documents](/guideline/figs/fig_5_archived_patient_medical_record_set_documents.svg "Archived Patient Medical Record as set of Documents")
+
+**Figure 4:** Archived Patient Medical Record as set of Documents file
