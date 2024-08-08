@@ -35,6 +35,6 @@ In this example, the extraction of a Patient’s Medical Record consists of one 
 In this example, extraction of the Patient’s Medical Record consists of a set of unstructured files, typically PDF documents, where each file includes all of the information within a subject/theme that reflects the organisation of information in the current system. In this example, an Archived Patient Medical Record would consist of a number of Cases, each containing one Document, each containing one Data File (see Figure 5).
 
 <a name="fig5"></a>
-![Archived Patient Medical Record set of Documents](/guideline/figs/fig_5_archived_patient_medical_record_set_documents.svg "Archived Patient Medical Record as set of Documents")
+![Archived Patient Medical Record as set of Documents](/guideline/figs/fig_5_archived_patient_medical_record_set_documents.svg "Archived Patient Medical Record as set of Documents")
 
-**Figure 4:** Archived Patient Medical Record as set of Documents file
+**Figure 4:** Archived Patient Medical Record as set of Documents
