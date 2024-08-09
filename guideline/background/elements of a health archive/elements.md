@@ -1,5 +1,6 @@
-# Elements of an eHealth Archive
-## Physical and Electronic Patient Records
+# 4 Elements of an eHealth Archive
+<a name="section4.1"></a>
+## 4.1 Physical and Electronic Patient Records
 A Patient Medical Record can be defined as: “a collection or compilation of recorded information about a Patient in connection with healthcare; the Patient record is the principal repository for information concerning a Patient’s health care.”  Prior to the widespread implementation of Electronic Medical Record (EMR) systems, the recording of Patient health records was paper and film-based (plus additional materials which could be images, video, audio). 
 
 Electronic Medical Records (EMRs) are digital versions of paper or film records. A healthcare provider may have a single EMR system for all of its Patient records or for larger organisations; there can be fragmentation because of specialisation or organisational sub-division, and a Patient’s total medical record at that organisation may be constituted from many subsidiary systems. A considerable volume of these Patient records exist at healthcare providers and within centralised organisations because of legal remits to store the records for extended periods. 
@@ -7,7 +8,8 @@ Electronic Medical Records (EMRs) are digital versions of paper or film records.
 A Complete Patient Medical Record may contain information that is sourced from several different organisations’ systems (e.g. different hospitals, specialist healthcare providers, primary healthcare providers) and viewed from an archive/academic perspective; the information in each of these organisations constitutes an archive (or several archives).  In creating a Central Health Archive, it is necessary for a healthcare provider to make separate extractions from each system, for each Patient to be included in a delivery and to aggregate them before submission to the central archive. 
 
 The creation of a Central Health Archive can encompass the digitisation and preservation of physical records as well as the collection and preservation of electronic records from EMR systems. In general, as a Patient’s aggregated medical record is not complete until there are no new additions to it (i.e. when the individual has died), then a health archive will consist only of records for Patients who are known or who are believed to be deceased.
-## Electronic Medical Record and Health Record Systems
+<a name="section4.2"></a>
+## 4.2 Electronic Medical Record and Health Record Systems
 The terms “electronic medical record” and “electronic health record” (or “EMR” and “EHR”) can be used interchangeably. However, the difference between the two terms is quite significant and particularly so in the context of archiving standards.
 
 EMR is the older term, and early EMRs were medical in nature; they were for use by clinicians mostly for diagnosis and treatment. Because of a lack of available standards when EMR systems were first developed, the information in EMRs does not travel easily out of a healthcare provider. In fact, the Patient’s record might have to be printed out and delivered by mail to specialists or other members of the care team. In that regard, EMRs are not much better than paper records.
@@ -19,7 +21,8 @@ The information moves with the Patient—to the specialist, the hospital, the nu
 The benefits of EHR systems to Patient care mean that the trajectory for healthcare worldwide is towards national or regional EHR systems. The complexity and lack of standards in existing systems mean that realisation is difficult and expensive. Adoption is hence not yet widespread. Implementations of EHR systems can also rely on summary Patient data gathered by means of standardised clinical documents (such as HL7 CDAs). This means that extractions from EHR systems can sometimes only yield Patient summary data and not the Complete Patient Medical Record.
 
 The development of standards and technology that make EHR systems possible (such as the encoding of key clinical data, medical data interoperability standards such ICD, DICOM, SNOMED and HL7 FHIR) makes the future scope of a national health archive a different proposition; systems will exist containing a Patient’s total health history, richly encoded and ideally suited to analytical techniques for ‘big data’. Systems in principle will be able to grow over time containing records from both live and deceased Patients.
-## Use Cases for a Central Health Archive
+<a name="section4.3"></a>
+## 4.3 Use Cases for a Central Health Archive
 The eHealth1 Centent Information Specification (CITS) was developed as a result of creation of a centralised Patient Medical Record archive in Norway. According to the health archive regulation, the mission of the Norwegian National Health Archive (NHA)  is to:
 
 1. receive and preserve Patient archives from public and private hospitals, and
