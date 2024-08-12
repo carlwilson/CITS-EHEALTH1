@@ -1,3 +1,4 @@
+# Appendix 1 - Extended Vocabulary
 | **Value** |  **Vocabulary and Context** |
 |---------------|-------------------------------------|
 | citsehpj__v2_0 | CSIPVocabularyContentInformationType|
