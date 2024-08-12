@@ -1,4 +1,4 @@
-# General Requirements
+# 7 General Requirements
 **EHGR1** – submission packages MUST contain at least one representation containing data from one or more Patients.
 
 **EHGR2** – data from multiple Patients if present MUST be divided into separate Patient Record folders in the data folder of the representation. 
