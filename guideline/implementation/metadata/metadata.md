@@ -10,8 +10,8 @@ The root METS file must adhere to the requirements of the CSIP and Information P
 The Representation METS file is used to describe the data structure of the Patient Medical Records held in the data folder of the Representation via the structMap element and to reference any additional technical metadata. Details of requirements for the Representation METS can be found in the specification document.
 <a name="section8.4"><a/>
 ## 8.4 Use of Descriptive Metadata in eHealth1
-### 8.4.1 Archival Description
-If the health archive is a distincy entity containing only Patient Medical Records
+### 8.4.1 Archival Information
+According to local factors the health archive may be a distinct, specialised entity containing only Patient Medical Records or a mixed archive containing other types of records. In the case of a single subject archive the description of the archive is implicit and may be recorded outside of the archival packages themselves. In the case of a mixed archive it will be necessary to include archival description records in each archival package which should then follow the requirements of the Common Specification for Archival Information and use a standardised schema such as EAD3 or Dublin Core.
 ### 8.4.2 Patient Identifiers
 Patients must have a nationally unique identifier that is referenced within the source EMR system, such as a Social Security or other unique individual identifier.
 ### 8.4.3 Patient Personal Information
