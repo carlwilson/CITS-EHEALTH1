@@ -1,4 +1,6 @@
 # Use of Descriptive Metadata in eHealth1
+## Archival Information
+Medical Records or a mixed archive containing other types of records. In the case of a single subject archive the description of the archive is implicit and may be recorded outside of the archival packages themselves. In the case of a mixed archive it will be necessary to include archival description records in each archival package which should then follow the requirements of the Common Specification for Archival Information and use a standardised schema such as EAD3 or Dublin Core.
 ## Patient Identifiers
 Patients must have a nationally unique identifier that is referenced within the source EMR system and can be referenced to a National Death Register, such as a Social Security or other unique individual identifier.
 ## Patient Personal Information
