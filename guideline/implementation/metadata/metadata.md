@@ -10,11 +10,13 @@ The root METS file must adhere to the requirements of the CSIP and Information P
 The Representation METS file is used to describe the data structure of the Patient Medical Records held in the data folder of the Representation via the structMap element and to reference any additional technical metadata. Details of requirements for the Representation METS can be found in the specification document.
 <a name="section8.4"><a/>
 ## 8.4 Use of Descriptive Metadata in eHealth1
-### 8.4.1 Patient Identifiers
+### 8.4.1 Archival Description
+If the health archive is a distincy entity containing only Patient Medical Records
+### 8.4.2 Patient Identifiers
 Patients must have a nationally unique identifier that is referenced within the source EMR system, such as a Social Security or other unique individual identifier.
-### 8.4.2 Patient Personal Information
+### 8.4.3 Patient Personal Information
 Patient Personal Information should, wherever possible conform to an international or national standard for describing Patient information within EMR of EHR systems (e.g. HL7 FHIR contains a well-specified resource for Patient Personal Information and provides schemas in a number of formats)[^1].  At a minimum the file located in the root/metadata/descriptive folder must contain Patient names and unique identifiers and may contain personal and demographic information.
-### 8.4.3 Patient Clinical Information
+### 8.4.4 Patient Clinical Information
 Structured Patient Clinical Information such as diagnoses, procedures, medication, allergies, etc., can add significant value to the Health Archive and, in particular, to the research use cases as described above. Patient Clinical Information associated with the Patient or Patient Cases can be added to the individual Patient Records either at Patient or appropriate Case, Sub-case or Document level. Patient Clinical Information should, wherever possible, conform to an international or national standard for describing Patient Clinical Information with EMR or EHR systems (e.g. HL7 FHIR contains well-specified resources for clinical, diagnostic and medication data and provides schemas in a number of formats)[^2].  Clinical Information should use recognised vocabularies and coding such as ICD and SNOMED.
 
 [^1]: https://www.hl7.org/fhir/Patient.html
