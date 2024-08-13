@@ -10,8 +10,10 @@ This specification makes the following assumptions:
 - A business case for the creation of an eHealth archive includes the incorporation of a backlog of physical and digital Patient records. 
 - An eHealth archive concerns the Complete Patient Medical Records for Patients within the jurisdiction. Note that the term ‘jurisdiction’ does not imply that a Central Health Archive must be at a national or federal level. Many health administrations are organised at a state or region level, and the specification is equally valid for this scenario. Note also that there are significant potential benefits for the use of the standard for archiving of Patient Medical Records if complied with by all regional administrations within a federation. This can also apply to environments where there are private healthcare providers, and a Central Health Archive is being created by a controlling administration.
 - Implementation of Electronic Health Record (EHR) systems is not widespread, and the creation of an eHealth archive that aggregates information from both EMR and EHR systems is considered to be a special case that can be considered within future iterations of this specification (see section 4 for how the specification defines EHR and EMR systems).
-- The use cases for an eHealth archive are described in [Section 4](/guideline/background/elements of a health archive/elements.md).
+- The use cases for an eHealth archive are described in 
 There are two options for extracting Patient records from an EMR or EHR system which can be dependent to a certain extent on the source system data structure:
+
+[Section 4](/guideline/background/elements of a health archive/elements.md).
 
 ### 2.2.1 Extracting data in a relational database structure
 If the structure of the source EHR/EMR system is largely or wholly a relational database, then the extraction of selected records can be made into a long-term database preservation format (SIARD) that preserves the properties of the database such that the data can be imported into a relational database management system (RDBMS) at the time of access. Access can happen through database queries or a search field. 
