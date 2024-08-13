@@ -1,6 +1,7 @@
-<a name="section6"></a>
 # 6. Data Structure and Aggregations
+
 <a name="section6.1"></a>
+
 ## 6.1 Case Structure
 The names of aggregation levels within an archive and represented within an archival package (IP) will depend on the agreements between data producers (Creators) and archives. EAD3 has defined a set of values (class, collection, file, fonds, item, otherlevel, recordgrp, series, subfonds, subgrp, subseries) for that purpose, and it allows other values to be used in addition if they are defined as “otherlevel”. However, even though the aggregation levels in this context could be described in this way, the EAD template for archival description is considered unsuitable for describing the aggregations in a Patient Health Archive but may be used for general arhival information. [Section 8](/guideline/implementation/metadata/metadata.md).
 
@@ -30,6 +31,7 @@ With the flexibility of the structure of the eHealth1 archival package and the d
 In this example, the extraction of a Patient’s Medical Record consists of one unstructured file in, for example, PDF format, which contains a complete extract from an EMR system. In such a case, an archived Patient Medical Record will consist of one Case containing one Document and one Data File ([Figure 4](#fig4))
 
 <a name="fig4"></a>
+
 ![Archived Patient Medical Record as one File](/guideline/figs/fig_4_archived_patient_medical_record_one_file.svg "Archived Patient Medical Record as one File")
 
 **Figure 4:** Archived Patient Medical Record as one File
@@ -38,6 +40,7 @@ In this example, the extraction of a Patient’s Medical Record consists of one 
 In this example, extraction of the Patient’s Medical Record consists of a set of unstructured files, typically PDF documents, where each file includes all of the information within a subject/theme that reflects the organisation of information in the current system. In this example, an Archived Patient Medical Record would consist of a number of Cases, each containing one Document, each containing one Data File ([Figure 5](#fig5)).
 
 <a name="fig5"></a>
+
 ![Archived Patient Medical Record as set of Files](/guideline/figs/fig_5_archived_patient_medical_record_set_files.svg "Archived Patient Medical Record as set of Files")
 
 **Figure 5:** Archived Patient Medical Record as set of Files
@@ -46,16 +49,19 @@ In this example, extraction of the Patient’s Medical Record consists of a set 
 In this example, extraction of the Patient’s Medical Record consists of a set of unstructured files which can be documents, images, videos, DICOM files, etc., and where each Data File may be related to other Data Files within a Document which can be related to each other within a Case or a Sub-case [Figure 6](#fig6).
 
 <a name="fig6"></a>
+
 ![Archived Patient Medical Record as set of documents](/guideline/figs/fig_6_archived_patient_medical_record_set_documents.svg "Archived Patient Medical Record as set of Documents per Case")
 
 **Figure 6:** Archived Patient Medical Record as set of Documents per Case
 
 
 <a name="section6.3"></a>
+
 ## 6.3 Using the eHealth1 specification together with the Common Specification for Information Packages (CSIP)
 The eHealth1 specification conforms to and extends the Common Specification for Information Packages (CSIP) and the specification for Submission Information Packages (E-ARK SIP). When extractions are made from EMR systems according to the structure described, they can be transmitted in a package following the principles described in the CSIP and IP specifications.
 
 <a name="section6.4"></a>
+
 ## 6.4 Placement of data in an eHealth1 Information Package
 As described in [Section 6.1](#section6.1) Patient data as submitted by hospitals or healthcare providers are likely to be periodically extracted from source systems and sent in batches. The eHealth1 specification allows for the inclusion of multiple Patients per package, and so these batches can be transmitted in a single submission. The number of Patients included in each AIP is then a matter for local implementation, although the decision in Norway at the National Health Archive was for each AIP to consist of data from a single Patient and from a single Submitting Organisation.
 
@@ -68,11 +74,13 @@ It is recommended but not mandated that within each Patient Record folder that t
 The package should contain a Patient Administrative Information or manifest file within the root metadata/descriptive folder that at minimum contains the names of the Patients whose records are contained in the package and a reference to their Patient ID.
 
 <a name="fig7"></a>
+
 ![Example of Package Folder Structure](/guideline/figs/fig_7_package_structure.svg "Example of Package Folder Structure with Multiple Patient Submissions and Case Structure")
 
 **Figure 7:** Example of Package Folder Structure with Multiple Patient Submissions and Case Structure
 
 <a name="sectioo6.5"><a/>
+
 ## 6.5 Archival Package (AIP) Representations
 The CSIP and SIP specifications allow that packages contain multiple representations of data that form a single intellectual entity, be this an aggregation within an archival taxonomy, geophysical data with a given boundry or a complete archived relational database. Representations allow the same intellectual entity to be represented in different formats for example for long-term preservation or for access purposes.
 
