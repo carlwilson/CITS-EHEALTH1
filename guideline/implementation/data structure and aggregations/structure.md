@@ -19,6 +19,7 @@ The levels of the aggregation in an eHealth1 package are as follows:
 - Byte Stream: A Byte Stream is a component that contains data, has an associated MIME file type and is encapsulated in a container such as MP4, DICOM or Matroska. Each Byte Stream has its own associated metadata, such as technical metadata which is generally only accessible with specialised tools (such as ffprobe for video container formats).
 
 <a name="fig3"></a>
+
 ![eHealth1 SIP Data Model](/guideline/figs/fig_3_eHealth1_SIP_Data_Model.svg "Data Model Structure")
 
 **Figure 3:** eHealth1 SIP Data Model Structure
