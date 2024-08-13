@@ -13,7 +13,7 @@ This specification makes the following assumptions:
 - The use cases for an eHealth archive are described in 
 There are two options for extracting Patient records from an EMR or EHR system which can be dependent to a certain extent on the source system data structure:
 
-[Section 4](/guideline/background/elements of a health archive/elements.md).
+[Section 4](/guideline/background/elements of a health archive/elements.md) 
 
 ### 2.2.1 Extracting data in a relational database structure
 If the structure of the source EHR/EMR system is largely or wholly a relational database, then the extraction of selected records can be made into a long-term database preservation format (SIARD) that preserves the properties of the database such that the data can be imported into a relational database management system (RDBMS) at the time of access. Access can happen through database queries or a search field. 
