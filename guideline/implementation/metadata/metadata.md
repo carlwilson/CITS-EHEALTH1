@@ -11,7 +11,7 @@ The Representation METS file is used to describe the data structure of the Patie
 <a name="section8.4"><a/>
 ## 8.4 Use of Descriptive Metadata in eHealth1
 ### 8.4.1 Archival Information
-According to local factors the health archive may be a distinct, specialised entity containing only Patient Medical Records or a mixed archive containing other types of records. In the case of a single subject archive the description of the archive is implicit and may be recorded outside of the archival packages themselves. In the case of a mixed archive it will be necessary to include archival description records in each archival package which should then follow the requirements of the Common Specification for Archival Information and use a standardised schema such as EAD3 or Dublin Core.
+According to local factors the health archive may be a distinct, specialised entity containing only Patient Medical Records or a mixed archive containing other types of records. In the case of a single subject archive the description of the archive is implicit and archival description information may be recorded outside of the archival packages themselves. In the case of a mixed archive it will be necessary to include archival description records in each archival package which should then follow the requirements of the Common Specification for Archival Information, use a standardised schema such as EAD3 or Dublin Core or a localised schema definition.
 ### 8.4.2 Patient Identifiers
 Patients must have a nationally unique identifier that is referenced within the source EMR system, such as a Social Security or other unique individual identifier.
 ### 8.4.3 Patient Personal Information
