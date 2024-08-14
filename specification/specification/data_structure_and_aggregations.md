@@ -1,6 +1,6 @@
 # 6 Data Structure and Aggregations
 
-<a name="section 6.1"><a/>
+<a name="section6.1"><a/>
 
 ## 6.1 Case Structure and Data Aggregation
 The names of aggregation levels within an archive and represented within an archival package (IP) will depend on the agreements between data producers (Creators) and archives. EAD3 has defined a set of values (class, collection, file, fonds, item, otherlevel, recordgrp, series, subfonds, subgrp, subseries) for that purpose, and it allows other values to be used in addition if they are defined as “otherlevel”. However, even though the aggregation levels in this context could be described in this way, the EAD template for archival description is considered unsuitable for describing the aggregations in a Patient Health Archive but may be used for general archival information [Section 10](descriptive_metadata.md).
@@ -23,15 +23,15 @@ The levels of the aggregation in an eHealth1 package are as follows:
 
 **Figure 3:** eHealth1 SIP Data Model
 
-<a name="section 6.2"><a/>
+<a name="section6.2"><a/>
 
 ## 6.2 Using the eHealth1 specification together with the Common Specification for Information Packages (CSIP)
 The eHealth1 specification conforms to and extends the Common Specification for Information Packages (CSIP) and the Specification for Submission Information Packages (E-ARK SIP). When extractions are made from EMR systems according to the structure described, they can be transmitted in a package following the principles described in the CSIP and IP specifications.
 
-<a name="section 6.3"><a/>
+<a name="section6.3"><a/>
 
 ## 6.3 Placement of data in an eHealth1 Information Package
-Patient data will most likely be submitted by hospitals or other healthcare providers in periodic batches, consisting of multiple patient records. The eHealth1 specification allows for the inclusion of multiple patients per package, and so these batches can be transmitted in a single submission. The number of patients included in each AIP is then a matter for local implementation, [Section 6.1](#section 6.1).
+Patient data will most likely be submitted by hospitals or other healthcare providers in periodic batches, consisting of multiple patient records. The eHealth1 specification allows for the inclusion of multiple patients per package, and so these batches can be transmitted in a single submission. The number of patients included in each AIP is then a matter for local implementation, [Section 6.1](#section6.1).
 
 Patient Medical Records are placed in a single representation within the ‘representations’ folder of the package. The representation should contain a METS file at its root (Representation METS), the folder structure of the representation should follow that defined by the CSIP and it must have a data folder. Within the data folder, there should be a folder for each Patient Record identified by a name that is unique within the package scope, follows the requirements of CSIP and contains to the Patient’s unique individual ID.
 
