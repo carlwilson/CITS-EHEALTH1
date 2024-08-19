@@ -1,0 +1,2 @@
+# CITS eHealth1 Example AIP
+The example AIP has been created manually using placeholder content data only. The example package is intended to show the structure of an eHealth1 SIP and the resulting contents of the root and representation METS files only. Example files are not fully populated or representative for the content type (e.g. premis, patient administrative and clinical information files). For guidance on production of valid premis, users should refer to the Common Specification for Preservation Metadata in addition to the eHealth1 specification.
