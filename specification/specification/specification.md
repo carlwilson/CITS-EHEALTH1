@@ -1,5 +1,5 @@
 # 3 Specification
-# 3.1 CITS eHealth1 Specification Requirements Structure
+## 3.1 CITS eHealth1 Specification Requirements Structure
 The Content Information Type Specification for Patient Medical Records (CITS eHealth1) aims to define the necessary elements required to preserve the accessibility and authenticity of Patient Medical Records over time and across changing technical environments. The specification elevates the level (and adjusts the cardinality) of some of the requirements set out in the Common Specification (CSIP) and package specifications (namely SIP) and adds new requirements for the package structure, descriptive metadata and accompanying METS files. The specification sets out general principles that underpin the specific requirements. Further context for the requirements and principles can be found in the accompanying Guideline to this document.
 
 <a name="Section3.2"><a/>
@@ -34,7 +34,7 @@ Based on the principals above, the intellectual content of archival information 
 ## 3.3 Standards
 Controlled vocabularies and coding provide a standardised way for the unambiguous recording of health data. Most EMR and all EHR systems will hold coded data concerning Patient Cases that can be extracted as metadata for the Patient Medical Record and will use international standard vocabularies such as ICD or SNOMED. Data can be recorded in standardised (such as ISO 13606 or FHIR) formats or to a local format which is specified by the health archive and referenced within a Submission Agreement. Background information on eHealth standards such as ISO 13606, FHIR, ICD and SNOMED is given in the Guideline.
 
-# 3.4 Data Structure and Aggregations
+## 3.4 Data Structure and Aggregations
 
 <a name="section3.4.1"><a/>
 
