@@ -1,4 +1,4 @@
-# 9 Deprecated Requirements in eHealth1
+# 5 Deprecated Requirements in eHealth1
 The work to improve this specification is ongoing. On occasion we retire a requirement, these are listed here for information. The majority of these deprecated requirements were duplicates of those in the CSIP and SIP specifications and have been removed for reasons of maintaining currency.
 
 |**ID**        |**Name**`, Location and Description|**Cardinality & Level**|
