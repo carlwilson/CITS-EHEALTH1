@@ -14,7 +14,8 @@
     <address>http://dilcis.eu/</address>
     <email>info@dilcis.eu</email>
   </contact>
-  <related_profile RELATIONSHIP="Extends" URI="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml">E-ARK SIP METS Profile 2.0.4</related_profile>
+  <related_profile RELATIONSHIP="Extends" URI="https://earksip.dilcis.eu/profile/E-ARK-SIP-v2-2-0.xml">E-ARK SIP METS Profile 2.2</related_profile>
+  <related_profile RELATIONSHIP="Extends" URI="https://earksip.dilcis.eu/profile/E-ARK-DIP-v2-2-0.xml">E-ARK DIP METS Profile 2.2</related_profile>
   <profile_context>
     <resource_model>
       <head>E-ARK eHealth1 ROOT profile</head>
