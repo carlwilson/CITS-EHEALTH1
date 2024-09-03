@@ -22,6 +22,28 @@ to change the meaning of the specification.
 ### Administrative:
 Standard changes between versions, e.g. version number and release date.
 
+Version 2.0.1
+-------------
+xxx xxth 2024
+
+### Major
+No changes
+
+### Minor
+- Converted specification and guideline text to markdown version.
+- Widening the scope of the specification to include live patients
+·	Providing a description of the OpenEHR standard in the guideline
+·	Add the option to include EAD3 (or other general descriptive schemas) at the root of the package
+·	Added example SIP
+- Corrected mets profile references in mets profiles
+- Corrected mets profile references in example
+
+### Corrections
+Minor spelling and grammar corrections where found or pointed out.
+
+### Administrative:
+v1.0.1
+
 Version 2.0.0
 -------------
 May 17th 2024
