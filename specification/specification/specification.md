@@ -92,7 +92,7 @@ The package should contain a patient administrative information or manifest file
 
 **EHGR2** – data from multiple Patients if present MUST be divided into separate Patient Record folders in the data folder of the representation. 
 
-**EHGR3** – Patient data in a Patient Record SHOULD follow a Case/Document/File or Case/Sub-case/Document/File structure.
+**EHGR3** – Patient data in a Patient Record SHOULD follow a logical structure such as that of the of the source system e.g  a Case/Document/File or Case/Sub-case/Document/File , but may take account of local language and/or source system directory structures. If local terms are used, the addition of a revised vocabulary to the package for data structure terms is recommended, which should be placed in the schemas folder.
 
 **EHGR4** – each submission package SHOULD contain a submission agreement in the root /documentation folder.
 
