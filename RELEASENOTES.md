@@ -42,7 +42,7 @@ No changes
 Minor spelling and grammar corrections where found or pointed out.
 
 ### Administrative:
-v1.0.1
+
 
 Version 2.0.0
 -------------
@@ -72,8 +72,6 @@ Change of patient record aggregation method in packages to remove issue of repre
 - Rationales have been added for statements of principle in the Guideline
 - Case of vocabulary terms in the eHealth1 vocabulary have been updated to align with the CSIP vocabulary (VocabularyFileGrpAndStructMapDivisionLabel)
 
-
-
 #### Corrections
 - Datafile div in structmap is redundant [[#8][]].
 - Added dictionary pairs for requirement history to profiles [[#2][]]
@@ -81,4 +79,4 @@ Change of patient record aggregation method in packages to remove issue of repre
 
 #### Administrative
 
-### Web site and PDF presentation
+
