@@ -2,33 +2,39 @@
 <?xml-model href="DILCISVocabularies.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <Vocabularies xmlns="https://DILCIS.eu/XML/Vocabularies/IP">
   <Vocabulary Name="VocabularyEHealth1">
-    <Information>
-      <p>Vocabulary derived from E-ARK</p>
-      <p>The terms are used for the CITS eHealth1</p>
-    </Information>
-    <Entry>
-      <Term lang="en">Patient Medical Records</Term>
-      <Definition>A collection or compilation of recorded information about a patient in connection with healthcare, ; the patient record is the principal repository for information concerning a patient’s health care.</Definition>
-    </Entry>
-    <Entry>
-      <Term lang="en">eHealth1</Term>
-      <Definition>The specification for eHealth1 is used.</Definition>
-    </Entry>
-    <Entry>
-      <Term lang="en">Case</Term>
-      <Definition>A Case is a folder located in the ”Data” folder within the representation and may contain any number of Sub-cases and Documents.</Definition>
-    </Entry>
-    <Entry>
-      <Term lang="en">Subcase</Term>
-      <Definition>A Sub-case is a folder located in a Case folder within the representation and must contain at least one Document.</Definition>
-    </Entry>
-    <Entry>
-      <Term lang="en">Document</Term>
-      <Definition>Each Case or Sub-case can contain individual Data Files that are related logically and together form  Documents (e.g. a book, video, image and annotation, document and audio notes).</Definition>
-    </Entry>
-    <Entry>
-      <Term lang="en">Data</Term>
-      <Definition>Data specifies that the section describes the data in the package/representation.</Definition>
-    </Entry>
+    <OTHERTYPE Name="VocabularycontentcategoryOTHERTYPE" xmlns="">
+      <Information xmlns="https://DILCIS.eu/XML/Vocabularies/IP">
+        <p>Vocabulary derived from E-ARK-CSIP</p>
+      </Information>
+      <Entry xmlns="https://DILCIS.eu/XML/Vocabularies/IP">
+        <Term lang="en">Patient Medical Records</Term>
+        <Definition>A collection or compilation of recorded information about patients in connection with healthcare, the Patient Record is the principal repository for information concerning a patient’s health care.</Definition>
+      </Entry>
+    </OTHERTYPE>
+    <VocabularystructmapLABEL Name="VocabularystructmapLABEL">
+      <Information>
+        <p>Vocabulary derived from E-ARK-CSIP</p>
+      </Information>
+      <Entry>
+        <Term lang="en">Patient Record</Term>
+        <Definition>A Patient Record is a folder located in the Data folder within the representation and may contain any number of Cases, Sub-cases and Documents. The Patient Record is the principal repository for information concerning a patient’s health care.</Definition>
+      </Entry>
+      <Entry>
+        <Term lang="en">Case</Term>
+        <Definition>A Case is a folder located in the Data folder within the representation and may contain any number of Sub-cases and Documents.</Definition>
+      </Entry>
+      <Entry>
+        <Term lang="en">Subcase</Term>
+        <Definition>A Subcase is a folder located in a Case folder within the representation and must contain at least one Document.</Definition>
+      </Entry>
+      <Entry>
+        <Term lang="en">Document</Term>
+        <Definition>Each Case or Subcase can contain individual Data Files that are related logically and together form  Documents (e.g. a book, video, image and annotation, document and audio notes).</Definition>
+      </Entry>
+      <Entry>
+        <Term lang="en">Data</Term>
+        <Definition>The folder in the representation containing the Patient Medical Records.</Definition>
+      </Entry>
+    </VocabularystructmapLABEL>
   </Vocabulary>
 </Vocabularies>
