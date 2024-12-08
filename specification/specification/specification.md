@@ -1,44 +1,53 @@
-# 3 Specification
-## 3.1 CITS eHealth1 Specification Requirements Structure
+# Specification
+
+## CITS eHealth1 Specification Requirements Structure
+
 The Content Information Type Specification for Patient Medical Records (CITS eHealth1) aims to define the necessary elements required to preserve the accessibility and authenticity of Patient Medical Records over time and across changing technical environments. The specification elevates the level (and adjusts the cardinality) of some of the requirements set out in the Common Specification (CSIP) and package specifications (namely SIP) and adds new requirements for the package structure, descriptive metadata and accompanying METS files. The specification sets out general principles that underpin the specific requirements. Further context for the requirements and principles can be found in the accompanying Guideline to this document.
 
 <a name="Section3.2"><a/>
 
-## 3.2 Principles
+## Principles
 
 <a name="Section3.2.1"><a/>
 
-### 3.2.1 Principle 1– use of existing standards
+### Principle 1– use of existing standards
+
 Wherever possible the eHealth1 specification encourages the use of existing international specifications for patient administrative, clinical, diagnostics, medication information and vocabularies for diseases, conditions and treatments.
 
 <a name="Section3.2.2"><a/>
 
-### 3.2.2 Principle 2 – the Complete Patient Medical Record and Patient centricity
+### Principle 2 – the Complete Patient Medical Record and Patient centricity
+
 CITS eHealth1 supports the creation of a centralised (national or regional) health archive of Complete Patient Medical Records, where the intention is to make data available to next of kin and should contain as much of the original data from source systems as possible. Data is organised to be patient centric and so access to a complete record from multiple submissions is possible.
 
 <a name="Section3.2.3"><a/>
 
-### 3.2.3 Principle 3 – ability to create cohorts for research purposes
+### Principle 3 – ability to create cohorts for research purposes
+
 CITS eHealth1 supports the creation of a centralised (national or regional) health archive of Complete Patient Medical Records, where the intention is to make data available to researchers and should allow the creation of search databases and indexes based on key patient demographic and clinical data.
 
 <a name="Section3.2.4"><a/>
 
-### 3.2.4 Principle 4 – support for born digital and digitised records
+### Principle 4 – support for born digital and digitised records
+
 The specifaction allows for data submitted by producers (or generated at the archive) to be extractions from Electronic Record Management (EMR) or Electronic Health Record (EHR) systems or to be data generated through digitisation of physical records.
 
 <a name="Section3.2.5"><a/>
 
-### 3.2.5 Principle 5 – bulk submission of Patient records from producers
+### Principle 5 – bulk submission of Patient records from producers
+
 Based on the principals above, the intellectual content of archival information packages (AIPs) in a health archive will most likely be limited to data about a single Patient. However, the specification recognises that submissions are likely to be made from healthcare providers on a batch basis on a regular schedule and the submission format should allow inclusion of multiple Patient records. Processes at the archive can then parse submission collections into individual patient SIPs and ingest into the archive such as to create individual patient AIPs.  
 
-## 3.3 Standards
+## Standards
+
 Controlled vocabularies and coding provide a standardised way for the unambiguous recording of health data. Most EMR and all EHR systems will hold coded data concerning Patient Cases that can be extracted as metadata for the Patient Medical Record and will use international standard vocabularies such as ICD or SNOMED. Data can be recorded in standardised (such as ISO 13606 or FHIR) formats or to a local format which is specified by the health archive and referenced within a Submission Agreement. Background information on eHealth standards such as ISO 13606, FHIR, ICD and SNOMED is given in the Guideline.
 
-## 3.4 Data Structure and Aggregations
+## Data Structure and Aggregations
 
 <a name="section3.4.1"><a/>
 
-### 3.4.1 Case Structure and Data Aggregation
+### Case Structure and Data Aggregation
+
 The names of aggregation levels within an archive and represented within an archival package (IP) will depend on the agreements between data producers (Creators) and archives. EAD3 has defined a set of values (class, collection, file, fonds, item, otherlevel, recordgrp, series, subfonds, subgrp, subseries) for that purpose, and it allows other values to be used in addition if they are defined as “otherlevel”. However, even though the aggregation levels in this context could be described in this way, the EAD template for archival description is considered unsuitable for describing the aggregations in a Patient Health Archive but may be used for general archival information [Section 4](/specification/implementation/implementation.md).
 
 A Central Patient Health Archive has a single purpose and may be instituted as a stand-alone entity or as a sub-entity within a larger institution (e.g. National Archive or Health Authority). The overall aggregation of a health archive is therefore implicit (it is an aggregation of Patient Medical Records), and further aggregation levels must be defined that suit the use cases for navigation within the archive and for the way in which the archive is populated.
@@ -64,12 +73,14 @@ The levels of the aggregation in an eHealth1 package are as follows:
 
 <a name="section3.4.2"><a/>
 
-### 3.4.2 Using the eHealth1 specification together with the Common Specification for Information Packages (CSIP)
+### Using the eHealth1 specification together with the Common Specification for Information Packages (CSIP)
+
 The eHealth1 specification conforms to and extends the Common Specification for Information Packages (CSIP) and the Specification for Submission Information Packages (E-ARK SIP). When extractions are made from EMR systems according to the structure described, they can be transmitted in a package following the principles described in the CSIP and IP specifications.
 
 <a name="section3.4.3"><a/>
 
-### 3.4.3 Placement of data in an eHealth1 Information Package
+### Placement of data in an eHealth1 Information Package
+
 Patient data will most likely be submitted by hospitals or other healthcare providers in periodic batches, consisting of multiple patient records. The eHealth1 specification allows for the inclusion of multiple patients per package, and so these batches can be transmitted in a single submission. The number of patients included in each AIP is then a matter for local implementation, [Section 6.1](#section6.1).
 
 Patient Medical Records are placed in a single representation within the ‘representations’ folder of the package. The representation should contain a METS file at its root (Representation METS), the folder structure of the representation should follow that defined by the CSIP and it must have a data folder. Within the data folder, there should be a folder for each Patient Record identified by a name that is unique within the package scope, follows the requirements of CSIP and contains to the Patient’s unique individual ID.
@@ -86,7 +97,7 @@ The package should contain a patient administrative information or manifest file
 
 <a name="Section3.5"></a>
 
-## 3.5 General Requirements
+## General Requirements
 
 **EHGR1** – submission packages MUST contain at least one representation containing data from one or more Patients.
 

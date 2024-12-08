@@ -3,7 +3,7 @@ The work to improve this specification is ongoing. On occasion we retire a requi
 
 |**ID**        |**Name**`, Location and Description|**Cardinality & Level**|
 |----------|----------------------------------------------|------------------|
-|EHR17 ref CSIP59|File section identifier, fileSec/@ID, An xml:id identifier for the file section used for internal package references. It must be unique within the package.| 1..1, MUST|`
+|EHR17 ref CSIP59|File section identifier, fileSec/@ID, An xml:id identifier for the file section used for internal package references. It must be unique within the package.| 1..1, MUST|
 |EHR18 ref CSIP60|Documentation file group, fileSec/fileGrp/@USE, All documentation pertaining to the package should be referenced from one or more file groups with the ‘mets/fileSec/fileGrp/@USE’ attribute value ”Documentation”. Note that any documentation pertaining to the transferred content is referenced within the representation METS files.|1..n, MUST|
 |EHR19 ref CSIP113|Schema file group, fileSec/fileGrp/@USE, All XML schemas used in the information package MUST be referenced from one or more file group elements with ‘mets/fileSec/fileGrp/@USE’ attribute value ”Schemas”. Schemas common to the transferred content should be held in the root schemas folder.|1..n, MUST|
 |EHR20 ref CSIP114|Representations file group, fileSec/fileGrp/@USE, Pointers to each of the METS documents describing the representations MUST be present in file groups with the ‘mets/fileSec/fileGrp/ @USE’ attribute ”Representations”.|1..n, MUST|
