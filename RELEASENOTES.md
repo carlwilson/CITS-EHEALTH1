@@ -22,6 +22,28 @@ to change the meaning of the specification.
 ### Administrative:
 Standard changes between versions, e.g. version number and release date.
 
+Version 2.0.1
+-------------
+xxx xxth 2024
+
+### Major
+No changes
+
+### Minor
+- Converted specification and guideline text to markdown version.
+- Widening the scope of the specification to include live patients
+·	Providing a description of the OpenEHR standard in the guideline
+·	Add the option to include EAD3 (or other general descriptive schemas) at the root of the package
+·	Added example SIP
+- Corrected mets profile references in mets profiles
+- Corrected mets profile references in example
+
+### Corrections
+Minor spelling and grammar corrections where found or pointed out.
+
+### Administrative:
+
+
 Version 2.0.0
 -------------
 May 17th 2024
@@ -50,8 +72,6 @@ Change of patient record aggregation method in packages to remove issue of repre
 - Rationales have been added for statements of principle in the Guideline
 - Case of vocabulary terms in the eHealth1 vocabulary have been updated to align with the CSIP vocabulary (VocabularyFileGrpAndStructMapDivisionLabel)
 
-
-
 #### Corrections
 - Datafile div in structmap is redundant [[#8][]].
 - Added dictionary pairs for requirement history to profiles [[#2][]]
@@ -59,4 +79,4 @@ Change of patient record aggregation method in packages to remove issue of repre
 
 #### Administrative
 
-### Web site and PDF presentation
+

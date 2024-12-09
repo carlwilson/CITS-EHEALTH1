@@ -1,0 +1,179 @@
+---
+preface:
+  - name: introduction
+    type: file
+    source: spec-publisher/res/md/common-intro.md
+
+body:
+  - name: introduction
+    type: file
+    source: specification/introduction/introduction.md
+
+  - name: specification
+    type: file
+    source: specification/specification/specification.md
+
+  - name: implementation
+    type: file
+    source: specification/implementation/implementation.md
+
+  - name: requirements.METS.root
+    type: requirements
+    heading: "Table 2: Root METS root element"
+    requirements:
+      - EHR1
+      - EHR2
+      - EHR3
+      - EHR4
+
+  - name: desc.METS.header
+    type: file
+    source: specification/implementation/rootMetsHeader.md
+
+  - name: requirements.METS.header
+    type: requirements
+    heading: "Table 3: Root METS header section (element metsHdr)"
+    requirements:
+      - EHR5
+      - EHR6
+      - EHR7
+      - EHR8
+      - EHR9
+      - EHR10
+      - EHR11
+
+  - name: desc.METS.dmdSec
+    type: file
+    source: specification/implementation/rootMetsDmdSec.md
+
+  - name: requirements.METS.filesec
+    type: requirements
+    heading: "Table 4: Root METS descriptiove metadata section (element dmdSec)"
+    requirements:
+      - EHR12
+      - EHR13
+      - EHR14
+      - EHR15
+
+  - name: desc.METS.amdSec
+    type: file
+    source: specification/implementation/rootMetsAmdSec.md
+
+  - name: requirements.METS.fileSec
+    type: requirements
+    heading: "Table 5: Root METS file metadata section (element fileSec)"
+    requirements:
+      - EHR16
+      - EHR22
+
+  - name: desc.METS.structMap
+    type: file
+    source: specification/implementation/rootMetsStructMap.md
+
+  - name: requirements.root.METS.structMap
+    type: requirements
+    heading: "Table 6a: Root METS structMap element"
+    requirements:
+      - REF_CSIP_80
+
+  - name: desc.rep.METS.root
+    type: file
+    source: specification/implementation/repMetsRoot.md
+
+  - name: requirements.rep.METS.root
+    type: requirements
+    heading: "Table 6: Representation METS root element"
+    requirements:
+      - EH1
+      - EH2
+      - EH3
+      - EH4
+      - EH5
+
+  - name: desc.rep.METS.header
+    type: file
+    source: specification/implementation/repMetsHeader.md
+
+  - name: requirements.METS.repamdsec
+    type: requirements
+    heading: "Table 7: Representation METS file section (element fileSec)"
+    requirements:
+      - EH13
+      - EH14
+      - EH15
+      - EH17
+      - EH22
+      - EH23
+      - EH24
+      - EH25
+      - EH26
+
+  - name: desc.rep.METS.structMap
+    type: file
+    source: specification/implementation/repMetsStructMap.md
+
+  - name: requirements.rep.METS.structMap
+    type: requirements
+    heading: "Table 8: Representation METS structural map (element structMap)"
+    requirements:
+      - EH28
+      - EH30
+      - EH31
+      - EH45
+      - EH46
+      - EH47
+      - EH70
+      - EH71
+      - EH72
+      - EH48
+      - EH50
+      - EH51
+      - EH52
+      - EH53
+      - EH73
+      - EH74
+      - EH59
+      - EH60
+      - EH61
+      - EH62
+      - EH63
+      - EH64
+      - EH75
+      - EH76
+
+  - name: deprecated.requirements
+    type: file
+    source: specification/implementation/deprecated.md
+
+  - name: descriptive.metadata
+    type: file
+    source: specification/implementation/useDescMd.md
+
+  - name: glossary
+    type: file
+    source: specification/glossary/glossary.md
+
+appendices:
+  - name: mets.examples
+    heading: "CITS eHealth1 Information Package METS Examples"
+    label: "A"
+    type: mets
+    section: Appendix
+
+  - name: mets.schema
+    heading: "External Schema"
+    label: "B"
+    type: mets
+    section: external_schema
+
+  - name: mets.vocabs
+    heading: "External Vocabularies"
+    label: "C"
+    type: mets
+    section: vocabulary
+
+  - name: mets.metadata.requirments
+    heading: "E-ARK CITS eHealth1 Metadata Requirements"
+    label: "D"
+    type: mets
+    section: requirements
