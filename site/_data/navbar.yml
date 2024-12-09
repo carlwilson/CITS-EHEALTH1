@@ -1,0 +1,26 @@
+- title: "Specification"
+  href: "/"
+
+- title: "PDF"
+  href: "/pdf/eark-cits-ehealth1.pdf"
+
+- title: "Profile"
+  href: "/profile/"
+
+- title: "Schema"
+  href: "/schema/"
+
+- title: "Examples"
+  href: "/examples/"
+
+- title: "About"
+  href: "/"
+  subcategories:
+    - subtitle: "Acknowledgements"
+      subextref: "/acknowledgements/"
+    - subtitle: "DILCIS"
+      subextref: "https://dilcis.eu/"
+    - subtitle: "On GitHub"
+      subextref: "https://github.com/DILCISBoard/CITS-EHEALTH1"
+    - subtitle: "Download"
+      subextref: "https://github.com/DILCISBoard/CITS-EHEALTH1/archive/main.zip"

@@ -5,13 +5,3 @@ The METS structural map element is the only mandatory element in the METS specif
 The representation METS file is referenced from the package METS.xml via the `<mptr>` element, and hence the requirements for the structMap element within the package METS.xml (CSIP requirements CSIP80 to CSIP118) are unchanged. Because a representation is present, the need for a Content Division in the package METS.xml structMap is not required (CSIP101 to CSIP104 and CSIP109).
 
 Implementers are welcome to define additional structural maps for their internal purposes by repeating the structMap element. The specific requirements for elements, sub-elements and attributes for eHealth1 CITS, which differ from the CSIP, are listed in the following table.
-
-<a name="Section4.1.2"><a/>
-
-### Representation METS File
-
-The representation METS files is used to describe the data structure as included in the data folder of the Representation  Medical Record) via the structMap element and to reference any additional descriptive metadata.
-
-#### Representation METS root element
-
-Particular notice is drawn to the specific requirements for a representation METS root element as described in the CSIP specification.

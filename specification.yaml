@@ -21,10 +21,10 @@ body:
     type: requirements
     heading: "Table 2: Root METS root element"
     requirements:
-      - ERH1
-      - ERH2
-      - ERH3
-      - ERH4
+      - EHR1
+      - EHR2
+      - EHR3
+      - EHR4
 
   - name: desc.METS.header
     type: file
@@ -34,13 +34,13 @@ body:
     type: requirements
     heading: "Table 3: Root METS header section (element metsHdr)"
     requirements:
-      - ERH5
-      - ERH6
-      - ERH7
-      - ERH8
-      - ERH9
-      - ERH10
-      - ERH11
+      - EHR5
+      - EHR6
+      - EHR7
+      - EHR8
+      - EHR9
+      - EHR10
+      - EHR11
 
   - name: desc.METS.dmdSec
     type: file
@@ -50,10 +50,10 @@ body:
     type: requirements
     heading: "Table 4: Root METS descriptiove metadata section (element dmdSec)"
     requirements:
-      - ERH12
-      - ERH13
-      - ERH14
-      - ERH15
+      - EHR12
+      - EHR13
+      - EHR14
+      - EHR15
 
   - name: desc.METS.amdSec
     type: file
@@ -63,12 +63,22 @@ body:
     type: requirements
     heading: "Table 5: Root METS file metadata section (element fileSec)"
     requirements:
-      - ERH16
-      - ERH22
+      - EHR16
+      - EHR22
 
   - name: desc.METS.structMap
     type: file
     source: specification/implementation/rootMetsStructMap.md
+
+  - name: requirements.root.METS.structMap
+    type: requirements
+    heading: "Table 6a: Root METS structMap element"
+    requirements:
+      - REF_CSIP_80
+
+  - name: desc.rep.METS.root
+    type: file
+    source: specification/implementation/repMetsRoot.md
 
   - name: requirements.rep.METS.root
     type: requirements
@@ -88,15 +98,15 @@ body:
     type: requirements
     heading: "Table 7: Representation METS file section (element fileSec)"
     requirements:
-      - ERH13
-      - ERH14
-      - ERH15
-      - ERH17
-      - ERH22
-      - ERH23
-      - ERH24
-      - ERH25
-      - ERH26
+      - EH13
+      - EH14
+      - EH15
+      - EH17
+      - EH22
+      - EH23
+      - EH24
+      - EH25
+      - EH26
 
   - name: desc.rep.METS.structMap
     type: file
@@ -106,30 +116,30 @@ body:
     type: requirements
     heading: "Table 8: Representation METS structural map (element structMap)"
     requirements:
-      - ERH28
-      - ERH30
-      - ERH31
-      - ERH45
-      - ERH46
-      - ERH47
-      - ERH70
-      - ERH71
-      - ERH72
-      - ERH48
-      - ERH50
-      - ERH51
-      - ERH52
-      - ERH53
-      - ERH73
-      - ERH74
-      - ERH59
-      - ERH60
-      - ERH61
-      - ERH62
-      - ERH63
-      - ERH64
-      - ERH75
-      - ERH76
+      - EH28
+      - EH30
+      - EH31
+      - EH45
+      - EH46
+      - EH47
+      - EH70
+      - EH71
+      - EH72
+      - EH48
+      - EH50
+      - EH51
+      - EH52
+      - EH53
+      - EH73
+      - EH74
+      - EH59
+      - EH60
+      - EH61
+      - EH62
+      - EH63
+      - EH64
+      - EH75
+      - EH76
 
   - name: deprecated.requirements
     type: file

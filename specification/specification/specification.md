@@ -67,7 +67,7 @@ The levels of the aggregation in an eHealth1 package are as follows:
 
 <a name="fig3"></a>
 
-![eHealth1 SIP Data Model](/specification/figs/fig_3_eHealth1_SIP_Data_Model.svg "eHealth1 SIP Data Model")
+![eHealth1 SIP Data Model](figs/fig_3_eHealth1_SIP_Data_Model.svg "eHealth1 SIP Data Model")
 
 **Figure 3:** eHealth1 SIP Data Model
 
@@ -91,7 +91,7 @@ The package should contain a patient administrative information or manifest file
 
 <a name="fig4"></a>
 
-![eHealth_SIP_Package_Structure](/specification/figs/fig_4_package_structure.svg "eHealth1_Package_Structure")
+![eHealth_SIP_Package_Structure](figs/fig_4_package_structure.svg "eHealth1_Package_Structure")
 
 **Figure 4:** Example of Package Folder Structure and Multiple Patient Submissions and Case Structure
 

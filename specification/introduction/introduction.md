@@ -43,7 +43,7 @@ This section introduces the role of the CITS eHealth1 and its dependencies on th
 The data model structure is based on a layered approach for information package definitions [Figure 2](#fig2). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS eHealth1 specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added to suit the needs of the organisation.
 
 <a name="fig2"></a>
-![Data Model Structure](/specification/figs/fig_2_data_model_structure.svg "Data Model Structure")
+![Data Model Structure](figs/fig_2_data_model_structure.svg "Data Model Structure")
 
 **Figure 2:** Data Model Structure
 
