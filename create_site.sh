@@ -13,7 +13,7 @@ cp -rf profile examples specification/figs schema site/
 
 echo " - Generating main site specification and PDF markdown..."
 mvn clean package -f spec-publisher/pom.xml
-java -jar ./spec-publisher/target/mets-profile-processor-0.1.0-SNAPSHOT.jar -f ./specification.yaml -o doc/site profile/E-ARK-eHealth1-ROOT_v2.0.1.xml profile/E-ARK-eHealth1-REPRESENTATION_v2.0.1.xml 
+java -jar ./spec-publisher/target/mets-profile-processor-0.2.0-SNAPSHOT.jar -f ./specification.yaml -o doc/site profile/E-ARK-eHealth1-ROOT_v2.0.1.xml profile/E-ARK-eHealth1-REPRESENTATION_v2.0.1.xml 
 
 echo " - MARKDOWN-PP: generating site page with TOC..."
 cd doc/site || exit
