@@ -95,7 +95,7 @@
       <URI>http://earkcsip.dilcis.eu/schema/CSIPVocabularyFileGrpAndStructMapDivisionLabel.xml</URI>
       <context>Values for `fileGrp/@USE`</context>
       <description>
-        <p xmlns="http://www.w3.org/1999/xhtml">Describes the uses of the file group <pre>&lt;fileGrp&gt;</pre> that are supported by the profile.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Describes the uses of the file group `&lt;fileGrp&gt;` that are supported by the profile.</p>
         <p xmlns="http://www.w3.org/1999/xhtml">Own names should be placed in an own extending vocabulary.</p>
       </description>
     </vocabulary>
@@ -133,7 +133,7 @@
       <URI>http://earkcsip.dilcis.eu/schema/CSIPVocabularyStructMapType.xml</URI>
       <context>Values for `structMap/@TYPE`</context>
       <description>
-        <p xmlns="http://www.w3.org/1999/xhtml">Describes the type of the structural map <pre>&lt;structMap&gt;</pre> that is supported by the profile.</p>
+        <p xmlns="http://www.w3.org/1999/xhtml">Describes the type of the structural map `&lt;structMap&gt;` that is supported by the profile.</p>
         <p xmlns="http://www.w3.org/1999/xhtml">Own types should be placed in an own extending vocabulary.</p>
       </description>
     </vocabulary>
@@ -261,8 +261,8 @@
       <requirement ID="EH13" REQLEVEL="MUST" EXAMPLES="fileSecExample1">
         <description>
           <head>File section</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The transferred content within the representation is referenced from the file section in different file group elements. Only a single file section (<pre>&lt;fileSec&gt;</pre>) element should be present.</p>
-          <p xmlns="http://www.w3.org/1999/xhtml">Representation of the Patient Case structural hierarchy is only possible if the file section (<pre>&lt;fileSec&gt;</pre>) is present in the representation.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The transferred content within the representation is referenced from the file section in different file group elements. Only a single file section (`&lt;fileSec&gt;`) element should be present.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">Representation of the Patient Case structural hierarchy is only possible if the file section (`&lt;fileSec&gt;`) is present in the representation.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/fileSec</dd>
@@ -490,7 +490,7 @@
       <requirement ID="EH47" REQLEVEL="MUST" EXAMPLES="structMapExample1">
         <description>
           <head>Data division label</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The representations's data division <pre>&lt;div&gt;</pre> element must have the `@LABEL` attribute value "Data" taken from the vocabulary.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The representations's data division `&lt;div&gt;` element must have the `@LABEL` attribute value "Data" taken from the vocabulary.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/structMap[@LABEL='eHealth1']/div/div/[@LABEL='DATA']</dd>
@@ -520,7 +520,7 @@
       <requirement ID="EH71" REQLEVEL="MUST" RELATEDMAT="VocabularyFileGrpAndStructMapDivisionLabel" EXAMPLES="structMapExample1">
         <description>
           <head>Patient record division label</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The patient record division <pre>&lt;div&gt;</pre> element's `@LABEL` attribute value must be "Patient Record" as taken from the vocabulary.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The patient record division `&lt;div&gt;` element's `@LABEL` attribute value must be "Patient Record" as taken from the vocabulary.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/structMap[@LABEL='eHealth1']/div/div/[@LABEL='DATA']/div[@LABEL='PATIENT RECORD']</dd>
@@ -578,7 +578,7 @@
       <requirement ID="EH50" REQLEVEL="MUST" RELATEDMAT="VocabularyEHealth1" EXAMPLES="structMapExample1">
         <description>
           <head>Patient case division label</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The package's patient case division <pre>&lt;div&gt;</pre> element must have the `@LABEL` attribute value "Case", taken from the vocabulary.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The package's patient case division `&lt;div&gt;` element must have the `@LABEL` attribute value "Case", taken from the vocabulary.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/structMap[@LABEL='eHealth1']/div/div/[@LABEL='DATA']/div[@LABEL='PATIENT RECORD']/div[@LABEL='CASE']</dd>
@@ -624,7 +624,7 @@
       <requirement ID="EH53" REQLEVEL="MUST" RELATEDMAT="VocabularyEHealth1" EXAMPLES="structMapExample1">
         <description>
           <head>Patient Document division label</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The package's Patient Documentation division <pre>&lt;div&gt;</pre> element must have the `@LABEL` attribute value "Document", taken from the vocabulary.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The package's Patient Documentation division `&lt;div&gt;` element must have the `@LABEL` attribute value "Document", taken from the vocabulary.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/structMap[@LABEL='eHealth1']/div/div/[@LABEL='DATA']/div[@LABEL='PATIENT RECORD']/div[@LABEL='CASE']/div[@LABEL='DOCUMENT']</dd>
@@ -703,7 +703,7 @@
       <requirement ID="EH61" REQLEVEL="MUST" RELATEDMAT="VocabularyEHealth1" EXAMPLES="structMapExample1">
         <description>
           <head>Patient Subcase division label</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The package's patient sub-case division <pre>&lt;div&gt;</pre> element must have the `@LABEL` attribute value "Subcase", taken from the vocabulary.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The package's patient sub-case division `&lt;div&gt;` element must have the `@LABEL` attribute value "Subcase", taken from the vocabulary.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/structMap[@LABEL='eHealth1']/div/div/[@LABEL='DATA']/div[@LABEL='PATIENT RECORD']/div[@LABEL='CASE']/div[@LABEL='SUBCASE']</dd>
@@ -751,7 +751,7 @@
       <requirement ID="EH64" REQLEVEL="MUST" RELATEDMAT="VocabularyEHealth1" EXAMPLES="structMapExample1">
         <description>
           <head>Patient Document division label</head>
-          <p xmlns="http://www.w3.org/1999/xhtml">The package's patient sub-case/documentation division <pre>&lt;div&gt;</pre> element must have the `@LABEL` attribute value "Document", taken from the vocabulary.</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">The package's patient sub-case/documentation division `&lt;div&gt;` element must have the `@LABEL` attribute value "Document", taken from the vocabulary.</p>
           <dl xmlns="http://www.w3.org/1999/xhtml">
             <dt>METS XPath</dt>
             <dd>mets/structMap[@LABEL='eHealth1']/div/div/[@LABEL='DATA']/div[@LABEL='PATIENT RECORD']/div[@LABEL='CASE']/div[@LABEL='SUBCASE']/div[@LABEL='DOCUMENT']</dd>

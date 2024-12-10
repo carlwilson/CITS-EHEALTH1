@@ -11,10 +11,10 @@ The Representation may contain additional descriptive metadata within the metada
 
 The administrative metadata section contains four sub-sections, each used to record different types of metadata for package content:
 
-• technical metadata (element techMD) records technical metadata;
-• rights metadata (element rightsMD) records intellectual property rights information;
-• source metadata (element sourceMD) records descriptive, technical or rights metadata for an analogue source for a digital library object; and
-• digital provenance metadata (element digiprovMD) records digital preservation information (e.g. audit information covering a digital library object’s life-cycle).
+- technical metadata (element techMD) records technical metadata;
+- rights metadata (element rightsMD) records intellectual property rights information;
+- source metadata (element sourceMD) records descriptive, technical or rights metadata for an analogue source for a digital library object; and
+- digital provenance metadata (element digiprovMD) records digital preservation information (e.g. audit information covering a digital library object’s life-cycle).
 
 The CSIP only describes the use of the elements digiprovMD and rightsMD within the administrative metadata section of the METS.
 

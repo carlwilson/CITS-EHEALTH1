@@ -1,5 +1,3 @@
-<a name="Section4.1.2"><a/>
-
 ### Representation METS File
 
 The representation METS files is used to describe the data structure as included in the data folder of the Representation  Medical Record) via the structMap element and to reference any additional descriptive metadata.

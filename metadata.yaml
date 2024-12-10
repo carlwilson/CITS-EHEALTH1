@@ -1,8 +1,18 @@
 title: "CITS eHealth1"
 subtitle: "E-ARK Content Information Type Specification for Patient Medical Records"
 abstract: |
-        The CITS eHealth1 Patient Medical Records is a Content Information Type Specification (CITS) for
-        Patient Medical Records (eHealth1). This specification is supported by METS profiles for the Root and
-        Representation METS files and an accompanying Guideline document.
+        The eHealth1 specification is built upon work done by the Directorate for Health
+        in Norway on the establishment of a standard for electronically extracting health
+        records from healthcare provider Electronic Medical Records (EMR) systems and their
+        submission to a central health archive. The use cases envisaged for the central
+        health archive are: a. to provide records to next of kin in compliance with open
+        information regulation and b. to harvest the vast amount of historical
+        healthcare-related data for medical research. The CITS takes input from the Norwegian
+        specification on the structure of extractions from submitting systems and puts this
+        into a framework that is compliant with the EARK common and package specifications.
+        The eHealth1 specification also recommends the use of international domain standards
+        for descriptive metadata. The specification is accompanied by two METS profiles for
+        the Root and Representations within the packages.
 version: ${RELEASE_VERSION}
 date: ${RELEASE_DATE}
+secnumdepth: 4

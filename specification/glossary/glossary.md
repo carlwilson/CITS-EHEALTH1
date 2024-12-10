@@ -1,4 +1,4 @@
-# 6 Glossary
+# Glossary
 
 |    Term    |  Description     |
 |------------|--------------------|
