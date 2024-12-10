@@ -143,7 +143,7 @@ body:
 
   - name: deprecated.requirements
     type: file
-    source: specification/implementation/deprecated.md
+    source: specification/deprecated requirements/deprecated_requirements.md
 
   - name: descriptive.metadata
     type: file

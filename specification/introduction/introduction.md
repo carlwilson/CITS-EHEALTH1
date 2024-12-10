@@ -1,13 +1,14 @@
 # Introduction
 
 ## Purpose
-The purpose of this document is to describe the Content Information Type Specification (CITS) for Patient Medical Records (eHealth1). This specification is supported by METS profiles for the Root and Representation METS files and an accompanying Guideline document. 
+
+The purpose of this document is to describe the Content Information Type Specification (CITS) for Patient Medical Records (eHealth1). This specification is supported by METS profiles for the Root and Representation METS files and an accompanying Guideline document.
 
 ## Scope
 
 This specification makes the following assumptions:
 
-- A business case for the creation of an eHealth archive includes the incorporation of a backlog of physical and digital patient records. 
+- A business case for the creation of an eHealth archive includes the incorporation of a backlog of physical and digital patient records.
 - An eHealth archive concerns the Complete Patient Medical Records for patients within the jurisdiction. Note that the term ‘jurisdiction’ does not imply that a Central Health Archive must be at a national or federal level. Many health administrations are organised at a state or region level, and the specification is equally valid for this scenario. Note also that there are significant potential benefits for the use of the standard for archiving of Patient Medical Records if complied with by all regional administrations within a federation. This can also apply to environments where there are private healthcare providers, and a Central Health Archive is being created by a controlling administration.
 - The use cases considered by the specification for an eHealth archive are described in the accompanying Guideline.
 
@@ -15,7 +16,7 @@ There are two options for extracting patient records from an EMR or EHR system w
 
 ### Extracting data in a relational database structure
 
-If the structure of the source EHR/EMR system is wholly a relational database, then the extraction of selected records can be made into a long-term database preservation format (SIARD) that preserves the properties of the database such that the data can be imported into a relational database management system (RDBMS) at the time of access. Access can happen through database queries or a search field. 
+If the structure of the source EHR/EMR system is wholly a relational database, then the extraction of selected records can be made into a long-term database preservation format (SIARD) that preserves the properties of the database such that the data can be imported into a relational database management system (RDBMS) at the time of access. Access can happen through database queries or a search field.
 
 Further information on the limitations of this approach, particularly for the use cases behind the eHealth1 CITS is given in the accompanying Guideline.
 
@@ -40,9 +41,10 @@ This section introduces the role of the CITS eHealth1 and its dependencies on th
 
 > This specification is created based on the requirements of the Common Specification for Information Packages (CSIP),  the specification for Submission Information Packages (E-ARK SIP) and the specification for Archival Information Packages (E-ARK AIP). To fully understand its requirements, we highly recommend that users review the requirements and the terminology of the source documents, before using this specification.
 
-The data model structure is based on a layered approach for information package definitions [Figure 2](#fig2). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS eHealth1 specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added to suit the needs of the organisation.
+The data model structure is based on a layered approach for information package definitions [Figure 2](#data-model-structure). The Common Specification for Information Packages (CSIP) forms the outermost layer. The general SIP, AIP and DIP specifications add respectively, submission, archiving and dissemination information to the CSIP specification. The third layer of the model represents specific content information type specifications, such as this CITS eHealth1 specification. Additional layers for business-specific specifications and local variant implementations of any specification can be added to suit the needs of the organisation.
 
-<a name="fig2"></a>
+<a name="data-model-structure"></a>
+
 ![Data Model Structure](figs/fig_2_data_model_structure.svg "Data Model Structure")
 
 **Figure 2:** Data Model Structure
