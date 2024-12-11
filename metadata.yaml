@@ -15,4 +15,3 @@ abstract: |
         the Root and Representations within the packages.
 version: ${RELEASE_VERSION}
 date: ${RELEASE_DATE}
-secnumdepth: 4
