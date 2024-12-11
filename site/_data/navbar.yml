@@ -7,6 +7,14 @@
 - title: "Profile"
   href: "/profile/"
 
+- title: "Guidelines"
+  href: "/"
+  subcategories:
+    - subtitle: "HTML"
+      subextref: "/guidelines/"
+    - subtitle: "PDF"
+      subextref: "/guidelines/pdf/"
+
 - title: "Schema"
   href: "/schema/"
 
