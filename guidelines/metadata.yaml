@@ -1,0 +1,10 @@
+title: "Guideline CITS eHealth1"
+subtitle: "Guideline for the E-ARK CITS for Patient Medical Records"
+abstract: |
+        The purpose of this document is to provide background and context for the Content Information Type
+        Specification (CITS) for Patient Medical Records (eHealth1). The specification is further supported by
+        METS profiles for the Root and Representation METS files. The initial development of the specification
+        was based on work done at the Norwegian National Health Archive (NHA) and is being enhanced and
+        developed further through community feedback.
+version: ${RELEASE_VERSION}
+date: ${RELEASE_DATE}

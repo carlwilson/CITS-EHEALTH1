@@ -1,5 +1,6 @@
-# 7	General Requirements & Rationales
-**EHGR1** – submission packages MUST contain at least one representation containing data from one or more Patients. 
+# General Requirements & Rationales
+
+**EHGR1** – submission packages MUST contain at least one representation containing data from one or more Patients.
 
 *Rationale* – the eHealth1 SIP is structured to allow aggregations of multiple Patient submissions into a single package, within a minimum single representation.
 
@@ -13,7 +14,7 @@
 
 **EHGR4** – each submission package SHOULD contain a submission agreement in the root /documentation folder.
 
-*Rationale* – a submission agreement between producer and archive details the agreement reached between the archive and producer on submission formats and other submission conditions or arrangements. A machine-readable format is recommended sych as that developed by Docuteam GmbH at:  http://www.loc.gov/standards/mets/profiles/00000041.xml
+*Rationale* – a submission agreement between producer and archive details the agreement reached between the archive and producer on submission formats and other submission conditions or arrangements. A machine-readable format is recommended sych as that developed by Docuteam GmbH at:  <http://www.loc.gov/standards/mets/profiles/00000041.xml>
 
 **EHGR5** – there MUST be a Patient manifest or Patient Administrative Information file located in the root /metadata/descriptive folder that at a minimum contains Patient names and unique identifiers. The Patient Administrative Information file MAY contain personal, demographic and clinical information such as to aid searches for next of kin and research cohorts.
 

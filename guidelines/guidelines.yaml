@@ -1,0 +1,50 @@
+---
+preface:
+  - name: introduction
+    type: file
+    source: ../spec-publisher/res/md/common-intro.md
+
+body:
+  - name: introduction
+    type: file
+    source: markdown/guideline/introduction/introduction.md
+
+  - name: requirements.structure
+    type: file
+    source: markdown/guideline/requirements structure/requirements_structure.md
+
+  - name: elements
+    type: file
+    source: markdown/guideline/elements/elements.md
+
+  - name: standards
+    type: file
+    source: markdown/guideline/standards/standards.md
+
+  - name: data.structure
+    type: file
+    source: markdown/guideline/data structure/structure.md
+
+  - name: general.requirements
+    type: file
+    source: markdown/guideline/general requirements/general_requirements.md
+
+  - name: metadata
+    type: file
+    source: markdown/guideline/metadata/metadata.md
+
+  - name: examples
+    type: file
+    source: markdown/guideline/examples/examples.md
+
+  - name: glossary
+    type: file
+    source: markdown/guideline/glossary/glossary.md
+  
+appendices:
+
+  - name: vocabularies
+    heading: "External Vocabularies"
+    label: "A"
+    type: file
+    source: markdown/guideline/vocabulary/vocabulary.md

@@ -1,2 +1,3 @@
-# 3 CITS eHealth1 Specification Requirements Structure
+# CITS eHealth1 Specification Requirements Structure
+
 The Content Information Type Specification for Patient Medical Records (CITS eHealth1) aims to define the necessary elements required to preserve the accessibility and authenticity of Patient Medical Records over time and across changing technical environments. The specification elevates the level (and adjusts the cardinality) of some of the requirements set out in the Common Specification (CSIP) and package specifications (namely SIP) and adds new requirements for the package structure, descriptive metadata and accompanying METS files. The specification sets out general principals that underpin the specific requirements and further context for the requirements and principals can be found in this  Guideline document.
