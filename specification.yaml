@@ -141,13 +141,13 @@ body:
       - EH75
       - EH76
 
-  - name: deprecated.requirements
-    type: file
-    source: specification/deprecated requirements/deprecated_requirements.md
-
   - name: descriptive.metadata
     type: file
     source: specification/implementation/useDescMd.md
+
+  - name: deprecated.requirements
+    type: file
+    source: specification/deprecated requirements/deprecated_requirements.md
 
   - name: glossary
     type: file

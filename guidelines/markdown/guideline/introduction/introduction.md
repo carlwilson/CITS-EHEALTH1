@@ -13,9 +13,7 @@ This specification makes the following assumptions:
 * Implementation of Electronic Health Record (EHR) systems is not widespread, and the creation of an eHealth archive that aggregates information from both EMR and EHR systems is considered to be a special case that can be considered within future iterations of this specification (see section 4 for how the specification defines EHR and EMR systems).
 * The use cases for an eHealth archive are described in
 
-There are two options for extracting Patient records from an EMR or EHR system which can be dependent to a certain extent on the source system data structure:
-
-[Section 4](#elements-of-an-ehealth-archive) 
+There are two options for extracting Patient records from an EMR or EHR system which can be dependent to a certain extent on the source system data structure: [Elements of an eHealth Archive](#elements-of-an-ehealth-archive) 
 
 ### Extracting data in a relational database structure
 
@@ -34,7 +32,7 @@ Digitisation of physical Patient Medical Records or extraction of electronic rec
 * Search and access is possible across all records and sources
 * Records can be managed individually and uniformly
 * The original EMR/EHR system software does not need to be licensed or preserved
-* The specification considers this particular extraction method within the context of the use cases as described in [Section 4](#elements-of-an-ehealth-archive).
+* The specification considers this particular extraction method within the context of the use cases as described in [Elements of and eHealth Archive](#elements-of-an-ehealth-archive).
 
 ## Layered Data Model
 
